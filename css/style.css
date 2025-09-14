@@ -1,0 +1,3806 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+.container,
+[class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  position: relative;
+  font-family: LatoWeb;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+a {
+  outline: 0 !important;
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+}
+
+b,
+strong {
+  font-family: latoWebbold;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  outline: 0 none;
+}
+
+a:focus {
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+.offset-none {
+  padding: 0;
+}
+
+.offset-left-none {
+  padding-left: 0;
+}
+
+.offset-right-none {
+  padding-right: 0;
+}
+
+main {
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+.row {
+  display: -webkit-box;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.header-row {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  transition: all 0.3s ease 0s;
+}
+
+.header-row .navbar {
+  padding: 17px 0 13px;
+  margin-bottom: 0;
+  background: 0 0;
+  border: none;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.header-row .navbar-brand {
+  color: #000;
+  font-size: 30px;
+  font-family: LatoWebBold;
+  line-height: 46px;
+  transition: all 0.3s ease 0s;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+  padding: 0 18px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.last,
+.navbar-expand-lg .navbar-nav .nav-item:last-child {
+  padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 34px;
+  padding: 0;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  background: 0 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.active a.nav-link,
+.navbar-expand-lg .navbar-nav .nav-link:focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #d5131b !important;
+  background: 0 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .download-h-btn {
+  background: #dd1d25;
+  border-radius: 3px;
+  color: #fff !important;
+  padding: 0 15px;
+}
+
+.navbar-expand-lg .navbar-nav .download-h-btn:focus,
+.navbar-expand-lg .navbar-nav .download-h-btn:hover {
+  background: #d5131b !important;
+  color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.show .nav-link {
+  color: #dd1d25 !important;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+.dropdown-menu .dropdown-head {
+  margin: 0 0 5px;
+  border-bottom: solid 1px #dd1d25;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 40px;
+}
+
+.dropdwonmenulinks .dropdown-item {
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  left: -35px;
+  top: 53px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu::after {
+  position: absolute;
+  content: "";
+  margin-left: -12px;
+  bottom: -2px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #fff;
+  top: -11px;
+  left: 99px;
+}
+
+@media (min-width: 767px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -webkit-box !important;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    display: -webkit-box !important;
+  }
+  .navbar-collapse {
+    -webkit-box-flex: 1;
+    -webkit-box-align: center;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .someClass {
+    color: #c00;
+  }
+  .header-row .navbar,
+  ::i-block-chrome {
+    display: -webkit-box !important;
+  }
+  .navbar-expand-lg .navbar-nav,
+  ::i-block-chrome {
+    margin-left: 25%;
+  }
+}
+
+.header-row.affix {
+  background: #090707;
+  position: fixed;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.header-row.affix .logo {
+  margin: 12px 0;
+  transition: all 0.3s ease 0s;
+}
+
+.header-row.affix .logo .img-logo {
+  width: 190px;
+}
+
+.header-row.affix .navbar-default .navbar-nav .nav-item {
+  padding: 0 20px;
+}
+
+.banner-section {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/home_bgIMG.webp) no-repeat
+    center 0;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature-banner,
+.home-banner,
+.premiumupgrade-ctn {
+  min-height: 718px;
+  max-height: 718px;
+}
+
+.banner-img-col {
+  text-align: center;
+  padding: 75px 0 30px;
+  display: none;
+}
+
+.banner-img-col .bnr-img {
+  max-width: 580px;
+  float: right;
+  margin-right: 16px;
+}
+
+.banner-content {
+  padding: 143px 0 82px;
+  margin-left: -64px;
+}
+
+.banner-content .heading-1 {
+  color: #fff;
+  font-size: 53px;
+  font-family: LatoWebMedium;
+  line-height: 58px;
+  margin: 0 0 4px;
+}
+
+.banner-content .heading-4 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 0 16px;
+  font-weight: 400;
+}
+
+.device-subscription-col {
+  padding: 0;
+}
+
+.subscription-btn {
+  background: 0 0;
+  border: solid 1px #a0a0a2;
+  border-radius: 3px;
+  outline: 0 !important;
+  color: #fff !important;
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 15px;
+  padding: 6px 22px;
+}
+
+.subscription-btn.active,
+.subscription-btn:hover {
+  border-color: #e50f12;
+  color: #e50f12 !important;
+}
+
+.btn.subscription-btn.mr-lt {
+  margin-left: 9px;
+}
+
+.banner-price-col {
+  overflow: hidden;
+  padding: 17px 0 0;
+}
+
+.banner-price-col .main-price {
+  color: #fff;
+  font-size: 55px;
+  margin-top: -15px;
+}
+
+.banner-price-col .pr-devider {
+  height: 47px;
+  width: 1px;
+  background: #9aa4ac;
+  display: inline-block;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+.banner-price-col .per-year-off {
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: -8px;
+}
+
+.banner-price-col span {
+  float: left;
+}
+
+.subscription-today-title {
+  color: #fff;
+  font-size: 19px;
+  margin: 0 0 5px;
+}
+
+.down-btn-col {
+  max-width: 285px;
+  width: 285px;
+}
+
+.down-btn-col p {
+  text-align: center;
+  margin: 7px 0 6px;
+  color: #b4b7b9;
+  font-size: 15px;
+}
+
+.down-btn-col p a {
+  color: #b4b7b9;
+  text-decoration: underline;
+}
+
+.down-btn-col p a:hover {
+  text-decoration: none;
+}
+
+.down-btn-col a.btn,
+.down-btn-col button.btn-download.ref-dllink {
+  display: block;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+.down-btn-col button.btn-download.ref-dllink {
+  width: 100%;
+}
+
+.down-btn-col a.buy-btn {
+  width: 192px;
+  background: #fff;
+  border: solid 2px #16202c;
+  color: #16202c;
+  font-size: 20px;
+  line-height: 60px;
+  margin-right: 0;
+}
+
+.down-btn-col a.buy-btn {
+  background: #f8f8f8;
+}
+
+.down-btn-col a.download-btn,
+.down-btn-col button.btn-download.ref-dllink {
+  background: #dd1d25;
+  border: none;
+  color: #fff;
+  font-size: 23px;
+  line-height: 60px;
+  font-family: LatoWebSemibold;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.down-btn-col a.download-btn:hover,
+.down-btn-col button.btn-download.ref-dllink:hover {
+  background: #d5131b;
+}
+
+.download-btn .arrow-icon {
+  margin-left: 8px;
+}
+
+.down-btn-col a.download-btn img {
+  margin-top: -5px;
+}
+
+ul.os-link-bnr {
+  overflow: hidden;
+  margin: 0 auto;
+  display: table;
+}
+
+ul.os-link-bnr li {
+  float: left;
+  color: #b4b7b9;
+  font-size: 15px;
+}
+
+ul.os-link-bnr li span {
+  padding: 0 10px;
+}
+
+.award-winning-security {
+  background: #e0e0e0;
+}
+
+.security-content {
+  overflow: hidden;
+}
+
+.award-security-text {
+  float: left;
+  padding: 22px 31px 13px 0;
+  background: url(https://cdn.systweak.com/content/wp/sav/right-devider.webp)
+    no-repeat right 24px;
+  margin-right: 30px;
+}
+
+.award-security-text h4 {
+  color: #1c1c1c;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0 0 -1px;
+}
+
+.award-security-text p {
+  color: #5c5c5d;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 0;
+}
+
+.award-security-logos {
+  float: left;
+  padding: 11px 0;
+}
+
+ul.logo-list {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul.logo-list li {
+  padding: 0;
+  float: left;
+  margin-right: 30px;
+}
+
+.svpn-about-section {
+  padding-bottom: 36px;
+}
+
+.about-content-col {
+  padding: 106px 50px 30px 0;
+}
+
+.about-content-col .heading-4 {
+  color: #0d123a;
+  font-size: 31px;
+  line-height: 42px;
+  font-weight: 400;
+  margin: 0 0 25px;
+}
+
+.about-content-col .desc {
+  color: #44454e;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.about-screen-col {
+  padding: 48px 0 0;
+  text-align: right;
+}
+
+.about-content-col .down-btn-col p {
+  color: #5a5a5a;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 14px;
+}
+
+.app_esteem_Logo1 {
+  margin-right: 16px;
+}
+
+.about-content-col .down-btn-col a.download-btn {
+  font-size: 20px;
+}
+
+.about-screen-col img {
+  margin-bottom: -36px;
+}
+
+.sav-steps-section {
+  padding: 0 0 67px;
+}
+
+.sav-stpes-outer {
+  text-align: center;
+}
+
+.sav-step-box {
+  padding: 0 10px;
+}
+
+.sav-step-box .heading-4 {
+  color: #111950;
+  font-size: 22px;
+  font-family: LatoWebMedium;
+  margin: 39px 0 20px;
+}
+
+.sav-step-box p {
+  color: #44454e;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.price-plan-box {
+  background: #fff;
+  border-radius: 4px;
+  padding: 0 0 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(108, 134, 196, 0.22);
+  border: solid 1px #dbdbdb;
+  text-align: center;
+  min-height: 1253px;
+}
+
+.price-plan-box .plan-title {
+  color: #242424;
+  font-size: 37px;
+  font-weight: 400;
+  margin: 42px 0 6px;
+}
+
+.price-plan-box .old-top-price {
+  color: #242424;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 0;
+  text-decoration: line-through;
+}
+
+.price-plan-box .price-new-top {
+  color: #242424;
+  font-size: 37px;
+  font-weight: 400;
+  margin: 14px 0 5px;
+}
+
+.buy-now-btn {
+  width: 206px;
+  outline: none !important;
+  margin: 0 auto;
+  display: block;
+  background: #fff;
+  border: solid 1px #eb0000;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: #eb0000;
+  font-size: 20px;
+  font-family: LatoWebSemibold;
+  line-height: 44px;
+}
+
+.price-plan-box.best-deal-box .price-new-top {
+  color: #eb0000;
+  font-family: LatoWebSemibold;
+}
+
+.price-plan-box.best-deal-box .buy-now-btn {
+  background: #eb0000;
+  color: #fff;
+}
+
+.price-plan-box .buy-now-btn:hover {
+  background: #d00000;
+  color: #fff;
+}
+
+.price-plan-box.best-deal-box .bottom-price-col .bt-new-price {
+  color: #f10303;
+}
+
+.buy-now-btn:focus,
+.buy-now-btn:hover {
+  color: #f10303;
+  border-color: #f10303;
+}
+
+.popup-recommended {
+  border: none;
+  box-shadow: inherit;
+  outline: none !important;
+  background: #fff0;
+}
+
+.price-plan-box .deviceSubscription-text,
+.price-plan-box .year-prie-offer,
+.price-plan-box .year-prie-offer a {
+  color: #242424;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price-plan-box .year-prie-offer a {
+  text-decoration: underline;
+}
+
+.price-plan-box .year-prie-offer a:hover {
+  text-decoration: none;
+  color: #00a8ff;
+}
+
+.price-plan-box .deviceSubscription-text {
+  margin-bottom: 25px;
+  margin-top: 43px;
+}
+
+.price-plan-box .year-prie-offer {
+  margin-bottom: 42px;
+}
+
+.bottom-price-col span {
+  color: #242424;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.bottom-price-col .bt-old-price {
+  text-decoration: line-through;
+}
+
+.bottom-price-col .bt-new-price {
+  padding-left: 6px;
+}
+
+.price-plan-box .device-yr-bt-text {
+  color: #242424;
+  font-size: 16px;
+  margin: 6px 0 10px;
+}
+
+.buy-now-btn.small-btn {
+  max-width: 136px;
+}
+
+.best-deal-title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #eb0000;
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.frt-yr-dtl-text,
+.frt-yr-dtl-text a {
+  text-align: center;
+  color: #242424;
+  font-size: 16px;
+}
+
+.frt-yr-dtl-text a {
+  text-decoration: underline;
+}
+
+.frt-yr-dtl-text a:hover {
+  text-decoration: none;
+  color: #00a8ff;
+}
+
+.frt-yr-dtl-text {
+  margin-top: 32px;
+  margin-bottom: 23px;
+}
+
+.no-risk-text {
+  text-align: center;
+  color: #242424;
+  font-size: 15px;
+  line-height: 23px;
+  padding: 0 24%;
+  margin-top: 24px;
+}
+
+.price-accordians-col {
+  min-height: 736px;
+  margin-bottom: 30px;
+}
+
+/* .price-accordians-col {
+    min-height: 775px;
+    margin-bottom: 30px
+} */
+
+ul.ftr-list {
+  margin: 0;
+}
+
+.ftr-list li {
+  text-align: left;
+  color: #000;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 19px 20px 19px 55px;
+  background: url(https://cdn.tweaking.in/content/wp/tnine/check-icon.webp)
+    no-repeat 30px center;
+  border-top: solid 1px #dfe0e1;
+}
+
+.ftr-list li:last-child {
+  border-bottom: solid 1px #dfe0e1;
+}
+
+.price-accordians-col .accordion > .card {
+  margin: 0;
+  border: none;
+  border-bottom: solid 1px #e6e6e6;
+  text-align: left;
+  border-radius: 0;
+  box-shadow: inherit;
+}
+
+.price-accordians-col .accordion > .card > .card-header {
+  background: #fff;
+  padding: 0;
+}
+
+.price-accordians-col .accordion > .card > .card-header .btn {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  font-family: LatoWebMedium;
+  position: relative;
+  padding: 18px 20px 18px 54px;
+  display: block;
+  box-shadow: none !important;
+  cursor: default;
+}
+
+.price-accordians-col .accordion > .card > .card-header .btn .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/minus01.webp)
+    no-repeat center center;
+  background-size: 13px;
+  min-width: 16px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 29px;
+  top: 24px;
+}
+
+.price-accordians-col
+  .accordion
+  > .card
+  > .card-header
+  .btn.collapsed
+  .plus-minus {
+  background: url(https://is.systweak.com/content/images/sys/website/systweaknewimages/lp1/sav/check-icon.webp)
+    no-repeat center -1px;
+}
+
+.price-accordians-col .card-body {
+  padding: 15px 32px;
+}
+
+.award-winning {
+  /* background: #fbfcff url(https://is.systweak.com/content/images/sys/website/systweaknewimages/lp1/sav/award-win-bg.jpg) no-repeat center; */
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 95px;
+  overflow: hidden;
+}
+
+.award-winning .head-text-col {
+  padding: 70px 0 0;
+  text-align: center;
+}
+
+.award-winning .head-text-col .heading-2 {
+  color: #3e3e3e;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.award-winning .head-text-col p {
+  color: #5c6775;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0 0 50px;
+}
+
+.award-winning .head-text-col p strong {
+  color: #000;
+}
+
+.heading-award-win {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 31px;
+  line-height: 36px;
+  color: #060607;
+}
+
+.award-winning-list {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  clear: both;
+}
+
+.award-winning-list li {
+  display: inline;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.award-winning-list li button {
+  background-color: transparent;
+  border: none;
+}
+
+.faq-content {
+  padding: 102px 0 52px;
+  overflow: hidden;
+}
+
+.faq-content .heading-2 {
+  color: #0d123a;
+  font-size: 31px;
+  margin: 0 0 46px;
+  text-align: center;
+}
+
+.accordion {
+  border-top: 1px solid #dfe0e1;
+}
+
+.faq-content .accordion > .card {
+  border: 1px solid #dfe0e1;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.faq-content .accordion > .card > .card-header {
+  background: 0 0;
+  border: none;
+  padding: 0;
+}
+
+.faq-content .accordion > .card > .card-header .btn {
+  color: #101010;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  padding: 0;
+  display: block;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  padding: 24px 20px 24px 50px;
+  position: relative;
+  box-shadow: none !important;
+  text-align: left;
+}
+
+.faq-content .accordion > .card > .card-header .btn .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/minus01.webp)
+    no-repeat center center;
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 18px;
+  top: 32px;
+}
+
+.faq-content .accordion > .card > .card-header .btn.collapsed .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/plus01.webp) no-repeat
+    center center;
+}
+
+.faq-content .card-body {
+  padding: 0 15px 10px 52px;
+  background: #fff;
+  color: #6d6d6d;
+  font-size: 15px;
+  line-height: 21px;
+  border: none !important;
+}
+
+.faq-content .card-body ul li {
+  line-height: 34px;
+}
+
+.faq-content .panel {
+  border: 1px solid #dfe0e1;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.faq-content .panel-heading {
+  background: 0 0;
+  border: none;
+  padding: 0;
+}
+
+.faq-content .panel-heading .panel-title a {
+  color: #000;
+  font-size: 17px;
+  line-height: 32px;
+  font-family: LatoWebSemibold;
+  text-decoration: none;
+  padding: 0;
+  display: block;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  background: url("") no-repeat scroll 15px 14px;
+  padding: 13px 60px 13px 70px;
+  position: relative;
+}
+
+.faq-content .panel-heading .panel-title a .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/minus.webp) no-repeat
+    center center;
+  background-size: 14px;
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 24px;
+  top: 22px;
+}
+
+.faq-content .panel-heading .panel-title a.collapsed .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/plus.webp) no-repeat
+    center center;
+  background-size: 14px;
+}
+
+.faq-content .panel-body {
+  padding: 4px 15px 45px 70px;
+  background: #fff;
+  color: #6d6d6d;
+  font-size: 15px;
+  line-height: 21px;
+  border: none !important;
+}
+
+.faq-content .down-btn-col {
+  margin: 50px auto 0;
+}
+
+.testimonial-section {
+  padding: 0 0 20px;
+  overflow: hidden;
+}
+
+.tstml-slier {
+  border-top: solid 1px #c0c1c1;
+}
+
+.testimonial-section .owl-carousel {
+  margin: 0;
+}
+
+.testimonial-section .owl-carousel .owl-stage-outer {
+  padding: 40px 0 10px;
+}
+
+.tstml-content {
+  background: #fff url(https://cdn.systweak.com/content/wp/sav/lt-quote.webp)
+    no-repeat 42px 102px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(39, 70, 100, 0.15);
+  border-radius: 4px;
+  padding: 63px 0 0;
+  margin: 0 10px;
+  min-height: 210px;
+  max-height: 210px;
+}
+
+.tstml-slier .heading-2 {
+  color: #0d123a;
+  font-size: 36px;
+  font-family: LatoWebBold;
+  margin: 55px 0 7px;
+  text-align: center;
+}
+
+.tstml-slier p {
+  color: #464646;
+  font-size: 16px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.tstml-content .desc-text {
+  color: #464646;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 65px 34px;
+  margin: 0;
+}
+
+.pt-nm-col {
+  padding: 18px 0 0;
+  margin: 0;
+}
+
+.tstml-pt-col {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -38px;
+  margin-top: -38px;
+}
+
+.tstml-content .img-circle {
+  width: 85px !important;
+  height: 85px;
+  border: solid 4px #fff;
+  box-shadow: 0 2px 6px rgba(39, 70, 100, 0.15);
+  border-radius: 50%;
+}
+
+.tstml-nm-col {
+  padding-left: 15px;
+}
+
+.user-name-title {
+  color: #0d123a;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: LatoWebBold;
+  margin: 0 0 10px;
+  padding-bottom: 1px;
+  background: url(https://cdn.systweak.com/content/wp/sav/border-dotted.webp)
+    no-repeat center bottom;
+}
+
+.testimonial-section .owl-nav button {
+  width: 44px;
+  height: 44px;
+  background: url(https://cdn.systweak.com/content/wp/sav/arrow.webp) no-repeat
+    0 center !important;
+  outline: 0 !important;
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.testimonial-section .owl-nav button.owl-next {
+  background-position: right center !important;
+  margin-left: 42px;
+}
+
+.testimonial-section .owl-nav button span {
+  display: none;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+.testimonial-section .owl-nav button:hover {
+  opacity: 0.9;
+}
+
+.our-promise {
+  padding: 0 0 25px;
+}
+
+.promise-box-outer {
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+.promise-logo {
+  text-align: center;
+}
+
+.promise-text-info {
+  margin-left: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.promise-text-info .heading-5 {
+  color: #000;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: LatoWebSemibold;
+  margin-bottom: 13px;
+}
+
+.promise-text-info p {
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.footer-row {
+  background: #151727;
+}
+
+.footer-content-col {
+  border-bottom: solid 1px #27293a;
+}
+
+.footer-about-col {
+  padding: 55px 50px 17px 0;
+}
+
+.footer-about-col p {
+  color: #9395a0;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 12px 0 0;
+}
+
+.footer-link-col {
+  overflow: hidden;
+  padding: 77px 0 30px 12px;
+}
+
+.footer-link-col h2 {
+  color: #b9babf;
+  font-size: 18px;
+  font-family: LatoWebBold;
+  margin: 0 0 20px;
+}
+
+.footer-link-col h6 {
+  color: #b9babf;
+  font-size: 18px;
+  font-family: LatoWebBold;
+  margin: 0 0 20px;
+}
+
+.footer-link-col ul li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+  padding: 3px 0;
+  display: inline-block;
+}
+
+.footer-link-col ul li a:hover {
+  color: #b9babf;
+}
+
+.socail-links ul li a {
+  padding-left: 36px;
+  background: url(https://cdn.systweak.com/content/wp/sav/social-icon.webp)
+    no-repeat 0 4px;
+}
+
+.socail-links ul li.tw a {
+  background-position: 0 -62px;
+}
+
+.socail-links ul li.yt a {
+  background-position: 0 -126px;
+}
+
+.colpy-right-row {
+  padding: 25px 0;
+}
+
+.copyright {
+  color: #b1b0af;
+  font-size: 12px;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.feature-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/Features_bgIMG.webp) no-repeat
+    center 0;
+  background-size: cover;
+}
+.footerdisclaim {
+  color: #9395a0;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 10px;
+}
+
+.feature-banner .heading-4,
+.home-banner .heading-4 {
+  margin-bottom: 40px;
+}
+
+.sav-features-section {
+  padding: 0 0 85px;
+}
+
+.sav-features-section .head-text-col h2 {
+  color: #0d123a;
+  font-size: 36px;
+  font-family: LatoWebBold;
+  margin: 84px 0 17px;
+}
+
+.sav-features-section .head-text-col p {
+  color: #464646;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 65px;
+  padding: 0 10%;
+}
+
+.sav-features-outer {
+  text-align: center;
+}
+
+.sav-features-box {
+  padding: 0 10px 100px;
+}
+
+.sav-features-box .heading-4 {
+  color: #000;
+  font-size: 20px;
+  margin: 8px 0 5px;
+}
+
+.sav-features-box p {
+  color: #44454e;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.sav-about-features {
+  padding-bottom: 36px;
+}
+
+.ftr-about-content-col {
+  padding: 0 0 30px 90px;
+}
+
+.ftr-about-content-col .heading-4 {
+  color: #0d123a;
+  font-size: 31px;
+  line-height: 42px;
+  margin: 0 0 23px;
+}
+
+.ftr-about-content-col .desc {
+  color: #44454e;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.about-ftr-img {
+  text-align: center;
+}
+
+.about-ftr-img img {
+  margin-bottom: -36px;
+  max-width: 563px;
+  margin-top: -60px;
+}
+
+.aboutftr2 .about-ftr-img img {
+  margin-right: -10px;
+  margin-top: 30px;
+}
+
+.aboutftr2 .ftr-about-content-col {
+  padding: 94px 80px 30px 0;
+}
+
+.aboutftr3 {
+  background: #fafcff;
+}
+
+.aboutftr2 .about-ftr-img img {
+  margin-right: -10px;
+  margin-top: 30px;
+}
+
+.aboutftr2 .ftr-about-content-col {
+  padding: 94px 80px 30px 0;
+}
+
+.aboutftr3 .down-btn-col {
+  margin-top: 38px;
+}
+
+.aboutftr3 .ftr-about-content-col {
+  padding: 116px 0 30px 87px;
+}
+
+.aboutftr3 .about-ftr-img {
+  padding: 50px 0 3px;
+}
+
+.aboutftr3 .about-ftr-img img {
+  max-width: 589px;
+  margin-top: 0;
+}
+
+.aboutftr4 {
+  padding-bottom: 28px;
+}
+
+.pc-scan-ftr {
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.pc-ftr-icon {
+  width: 54px;
+  float: left;
+  margin-right: 40px;
+}
+
+.pc-ftr-text {
+  width: 70%;
+  float: left;
+}
+
+.pc-ftr-text .heading-5 {
+  color: #000;
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+.pc-ftr-text p {
+  color: #44454e;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.aboutftr4 .ftr-about-content-col .desc {
+  margin-bottom: 43px;
+}
+
+.aboutftr4 .about-ftr-img img {
+  max-width: 620px;
+  margin-top: 202px;
+  float: right;
+  margin-right: -3px;
+}
+
+.aboutftr4 .ftr-about-content-col {
+  padding-left: 0;
+  padding-top: 97px;
+}
+
+.award-winning-section {
+  background: #fafcff;
+}
+
+.award-winning-section .ftr-about-content-col {
+  padding: 95px 0 40px;
+}
+
+.awa-list {
+  margin: 36px 0 0;
+}
+
+.awa-list li {
+  background: url(https://cdn.systweak.com/content/wp/sav/list-icon.webp)
+    no-repeat 0 3px;
+  color: #10131a;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 36px;
+  margin-bottom: 15px;
+}
+
+.sav-pro-info {
+  width: 620px;
+  float: right;
+  background: url(https://cdn.systweak.com/content/wp/sav/sav-awrd-bg.webp)
+    no-repeat center 0;
+  overflow: hidden;
+  min-height: 340px;
+  padding-left: 24px;
+  padding-right: 5px;
+  margin-top: 70px;
+}
+
+.sav-info-box {
+  width: 32.33%;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.sav-info-box .heading-5 {
+  color: #0d123a;
+  font-size: 24px;
+  font-family: LatoWebSemibold;
+  margin: 0 0 6px;
+}
+
+.sav-info-box p {
+  color: #454f5b;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: LatoWebSemibold;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.sav-info-box.ml-files p {
+  margin-bottom: 20px;
+}
+
+.sav-info-box.pro-time .heading-5 {
+  margin-top: 23px;
+}
+
+.sav-info-box.emplyees p {
+  margin-bottom: 15px;
+}
+
+.sav-info-box.pro-time {
+  padding-top: 55px;
+}
+
+.sav-info-box.ml-files {
+  padding-top: 137px;
+}
+
+.sav-info-box.emplyees {
+  padding-top: 142px;
+}
+
+.award-content-col {
+  border-top: solid 1px #d8e6f8;
+  padding-bottom: 70px;
+}
+
+.award-content-col .award-security-text {
+  background: 0 0;
+  margin-right: 0;
+  padding-right: 80px;
+}
+
+.award-content-col .award-security-text p {
+  color: #3e3e3e;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.award-content-col .award-security-logos {
+  margin-left: -50px;
+  padding: 18px 0;
+}
+
+.award-content-col .logo-list li {
+  margin-right: 20px;
+}
+
+.award-content-col .logo-list {
+  float: left;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.award-content-col .down-btn-col {
+  float: left;
+  min-width: 240px;
+  width: 240px;
+}
+
+.award-content-col .down-btn-col a.download-btn {
+  font-size: 19px;
+  max-width: 240px;
+  line-height: 60px;
+  box-shadow: 0 6px 24px rgba(13, 18, 58, 0.28);
+}
+.ftr-award-security-logos button {
+  background-color: transparent;
+  border: none;
+}
+
+.ftr-award-security-logos .logo-list {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ftr-award-security-logos .logo-list li {
+  margin-right: 15px;
+}
+
+.ftr-award-security-logos {
+  padding: 25px 0 0;
+}
+
+.eula-banner {
+  background: #080707 url(https://cdn.systweak.com/content/wp/sav/eula-bg.webp)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.privay-p-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/privacy-policy-banner.webp)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.termofuse-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/terms-conditions.webp) no-repeat
+    center 0;
+  background-size: cover;
+}
+
+.refund-p-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/refund-policy-banner.webp)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.inner-page {
+  min-height: 508px;
+  max-height: 508px;
+}
+
+.inner-page .banner-content .heading-1 {
+  margin-bottom: 17px;
+}
+
+.inner-page .banner-content {
+  padding: 190px 0 87px;
+}
+
+.inner-page-content {
+  padding: 30px 0 56px;
+}
+
+.inner-page-content h3 {
+  color: #0d123a;
+  font-size: 27px;
+  margin: 57px 0 17px;
+}
+
+.inner-page-content h4 {
+  color: #0d123a;
+  font-size: 20px;
+  margin: 38px 0 6px;
+}
+
+.inner-page-content p {
+  color: #44454e;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 26px;
+}
+
+.inner-page-content ul li {
+  color: #44454e;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 10px;
+  padding-left: 33px;
+  position: relative;
+}
+
+.inner-page-content ul li .dotted {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+}
+
+.faq-banner {
+  background: #080707 url(https://cdn.systweak.com/content/wp/sav/faq-bg.webp)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.faq-pg-section {
+  padding: 84px 0 90px;
+}
+
+.half-cirlce-box {
+  box-shadow: 0 2px 9px rgba(70, 95, 152, 0.28);
+  position: relative;
+  border-radius: 3px;
+}
+
+.half-circle-img {
+  width: 118px;
+  height: 52px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -59px;
+  margin-top: -47px;
+}
+
+.faq-box-content {
+  padding: 0 92px 78px;
+  overflow: inherit;
+}
+
+.faq-box-content .head-text-col {
+  text-align: center;
+}
+
+.faq-box-content .faq-icon {
+  margin-left: -2px;
+  position: relative;
+  z-index: 9;
+  margin-top: -17px;
+  margin-bottom: 20px;
+}
+
+.faq-box-content .heding-3 {
+  color: #0d123a;
+  font-size: 31px;
+  font-family: LatoWebBold;
+  margin: 0 0 6px;
+}
+
+.faq-box-content p {
+  color: #464646;
+  font-size: 16px;
+  margin: 0;
+}
+
+.faq-box-content .accordion > .card > .card-header .btn {
+  padding: 17px 20px 17px 50px;
+  font-size: 17px;
+}
+
+.faq-box-content .accordion > .card > .card-header .btn .plus-minus {
+  top: 24px;
+}
+
+.faq-box-content .accordion {
+  margin-top: 40px;
+}
+
+.faq-content .accordion > .card > .card-header .btn.collapsed {
+  color: #101010;
+}
+
+.faq-content .accordion > .card > .card-header .btn {
+  color: #006ac2;
+}
+
+.browse-get-help {
+  background: #fafcff;
+}
+
+.sav-support-steps {
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 77px;
+}
+
+.head-text-col h4 {
+  color: #0d123a;
+  font-size: 31px;
+  font-family: LatoWebMedium;
+  margin: 64px 0 1px;
+}
+
+.head-text-col p {
+  color: #464646;
+  font-size: 16px;
+  margin: 0 0 40px;
+}
+
+.sav-support-box {
+  padding: 28px 20px 17px;
+  background: #fff;
+  box-shadow: 0 2px 9px rgba(70, 95, 152, 0.28);
+  min-height: 250px;
+}
+
+.sav-support-box .heading-4 {
+  color: #0d123a;
+  font-size: 27px;
+  margin: 18px 0 14px;
+}
+
+.sav-support-box p {
+  color: #404040;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 0 6px;
+}
+
+.sav-support-box p a {
+  color: #006ac2;
+}
+
+.contactus-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/contactus-bg.webp) no-repeat
+    center 0;
+  background-size: cover;
+}
+
+.contactus-banner .down-btn-col {
+  max-width: 240px;
+}
+
+.contactus-banner .down-btn-col a.download-btn {
+  font-size: 19px;
+  font-family: LatoWebSemibold;
+  line-height: 60px;
+}
+
+.contactus-section {
+  padding: 55px 0 90px;
+}
+
+.contactus-content {
+  padding: 0 75px 78px;
+  overflow: inherit;
+}
+
+.contactus-section .head-text-col {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.contactus-section .head-text-col .heding-3 {
+  color: #0d123a;
+  font-size: 31px;
+  font-family: LatoWebMedium;
+  margin: 0 0 1px;
+}
+
+.contactus-section .head-text-col p {
+  color: #464646;
+  font-size: 16px;
+  margin: 0;
+}
+
+.contactus-form-outer .form-group {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
+.contactus-form-outer .form-group label {
+  color: #3c3c3c;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contactus-form-outer .form-group label span {
+  color: red;
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+}
+
+.contactus-form-outer .form-group .form-control {
+  height: 53px;
+  border-color: #b2c3d8;
+  border-radius: 0;
+}
+
+.contactus-form-outer .form-group textarea.form-control {
+  height: 173px;
+  max-width: 100%;
+}
+
+.google-captcha-col {
+  margin: 29px 0 38px;
+}
+
+.contactus-form-outer .btn-primary {
+  background: #dd1d25;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  line-height: 60px;
+  font-family: LatoWebSemibold;
+  box-shadow: 0 6px 24px rgba(13, 18, 58, 0.28);
+  padding: 0;
+  min-width: 240px;
+}
+
+.contactus-form-outer .btn-primary:active,
+.contactus-form-outer .btn-primary:hover {
+  background: #d5131b !important;
+}
+
+.query-support-section {
+  background: #fafcff
+    url(https://cdn.systweak.com/content/wp/sav/query-support-bg.jpg) no-repeat
+    0 0;
+  background-size: cover;
+  padding: 95px 0;
+}
+
+.contact-support-steps {
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 80px;
+  box-shadow: 0 2px 9px rgba(70, 95, 152, 0.28);
+  background: #fff;
+  border-radius: 4px;
+}
+
+.head-text-col h4 {
+  color: #0d123a;
+  font-size: 31px;
+  font-family: LatoWebMedium;
+  margin: 68px 0 1px;
+}
+
+.head-text-col p {
+  color: #464646;
+  font-size: 16px;
+  margin: 0 0 58px;
+}
+
+.contact-support-box {
+  padding: 0;
+  background: #fff;
+}
+
+.contact-support-box img {
+  margin-bottom: 20px;
+}
+
+.contact-support-box p {
+  color: #404040;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.contact-support-box p a {
+  color: #006ac2;
+  text-decoration: none;
+}
+
+.form-btn-col {
+  text-align: right;
+}
+
+.alert {
+  font-family: latoWebbold;
+}
+
+.container-950 {
+  margin: auto;
+  max-width: 950px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.after-uninstall-section {
+  padding-top: 63px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.after-uninstall-heading {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+  text-align: center;
+  font-family: latoWebsemibold;
+}
+
+.after-uninstall-sub-heading {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  font-family: latoWebsemibold;
+}
+
+.after-uninstall-block {
+  background: #fffddc;
+  padding: 33px 50px;
+  margin-top: 50px;
+  border: red solid 4px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.after-uninstall-info {
+  font-size: 18px;
+  color: #000;
+  line-height: 28px;
+}
+
+.after-uninstall-section .col-md-10 {
+  float: none;
+  margin: auto;
+  max-width: 100%;
+  width: 915px;
+}
+
+.bold-text {
+  font-family: latoWebbold;
+}
+
+.yellow-bg-off {
+  background: #fff402;
+  font-family: latoWebbold;
+  padding: 3px 5px 0;
+}
+
+.after-uninstall-middle {
+  width: 660px;
+  text-align: center;
+  margin: 40px auto 0 auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.after-uninstall-middle-col01 {
+  width: 86px;
+  float: left;
+}
+
+.after-uninstall-middle-col02 {
+  width: 428px;
+  margin-left: 30px;
+  margin-right: 30px;
+  float: left;
+}
+
+.after-uninstall-middle-col02 a {
+  display: inline;
+}
+
+.btn-price {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 4px 10px 1px;
+  margin-top: 15px;
+}
+
+.remember-section {
+  background: #f3f1c0;
+  padding: 15px;
+  margin-top: 42px;
+  font-size: 17px;
+  line-height: 28px;
+  color: #000;
+  text-align: center;
+}
+
+.remember-section span {
+  font-family: latoWebbold;
+}
+
+.after-uninstall-bot {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.after-uninstall-bot h5,
+.after-uninstall-bot h2 {
+  font-size: 24px;
+  font-family: latoWebbold;
+  line-height: 28px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.after-uninstall-bot p {
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.after-uninstall-bot p:last-child {
+  margin-bottom: 0;
+}
+
+.install-thanks-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+
+.install-thanks-text img {
+  float: left;
+  margin-right: 10px;
+}
+
+.remember-install-text {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000;
+  font-family: latoWebsemibold;
+  margin-top: 26px;
+}
+
+.after-install-product {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+.install-pro-box {
+  float: left;
+  max-width: 270px;
+}
+
+/* .install-pro-box img {
+	max-width: 90%
+} */
+
+.install-pro-info {
+  max-width: 582px;
+  float: right;
+}
+
+.install-pro-heading {
+  width: 100%;
+  float: left;
+}
+
+.install-pro-heading img {
+  max-width: 102px;
+  float: left;
+}
+
+.install-heading-text h4,
+.install-heading-text h2,
+.install-heading-text h2 .prodnameblackbold {
+  font-size: 28px;
+  line-height: 34px;
+  color: #000;
+  font-family: latoWebsemibold;
+  margin-top: 0;
+}
+
+.prodnameblackbold {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.install-heading-text,
+.install-heading-text p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #000;
+}
+
+.install-heading-text {
+  padding-bottom: 15px;
+  margin-left: 120px;
+}
+
+.install-heading-text p span:last-child,
+span.boldred:last-child {
+  color: #eb002f;
+  font-weight: 400;
+}
+
+.boldred {
+  color: #ff1041;
+  font-weight: 400;
+}
+
+.install-heading-main {
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  color: #000;
+  font-family: latoWebsemibold;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.install-paragraph {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+
+.dtblackbold,
+.install-heading-text p span {
+  font-family: latoWebsemibold;
+}
+
+.install-heading-text p span.red-text {
+  color: #ff1041;
+  font-weight: 400;
+}
+
+.install-pro-bot-info ul li {
+  background: url(https://cdn.systweak.com/content/wp/sav/points-arrow.webp)
+    no-repeat 0 5px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  margin-bottom: 6px;
+  padding-left: 24px;
+}
+
+.install-pro-bot-info ul li:last-child {
+  margin-bottom: 0;
+}
+
+.install-pro-buy {
+  margin-top: 5px;
+  padding: 15px 0 7px 0;
+  background: #f0efef;
+  border: #cecece solid 1px;
+  -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+}
+
+.install-buy-price {
+  width: 150px;
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.install-buy-price p {
+  color: #000;
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+
+.install-buy-price p.main-price {
+  font-size: 20px;
+  line-height: 30px;
+  color: #252525;
+  text-decoration: line-through;
+}
+
+.install-buy-price p.discount-price {
+  font-size: 25px;
+  line-height: 30px;
+  color: #e5003c;
+  font-family: latoWebbold;
+}
+
+.install-buy-btn-col {
+  margin-left: 182px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.buy-now-pr-btn {
+  width: 100%;
+  background: #ff1a4c;
+  display: block;
+  float: left;
+  font-size: 24px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-family: latoWebbold;
+  text-align: center;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 0;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  text-decoration: none !important;
+}
+
+.buy-now-pr-btn:focus,
+.buy-now-pr-btn:hover {
+  color: #fff;
+  background: #d31241;
+}
+
+.click-link {
+  display: inline;
+  color: #0030ff;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.after-install-guarantee {
+  color: #3c3c3c;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: latoWebsemibold;
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.after-install-guarantee span {
+  color: #b61133;
+}
+
+.after-install-recommended-box {
+  font-family: latoWebmedium;
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.after-install-pro-bot {
+  background: #f9fafb;
+  border-top: #d6dde0 solid 1px;
+  border-bottom: #d6dde0 solid 1px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.install-pro-bot-info {
+  max-width: 592px;
+  float: left;
+}
+
+.install-pro-bot-info p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.install-pro-bot-screen {
+  float: right;
+  max-width: 280px;
+}
+
+.install-pro-bot-screen img {
+  max-width: 100%;
+}
+
+.instructions-pro-heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-family: latoWebsemibold;
+}
+
+.install-instructions-col {
+  width: 100%;
+  float: left;
+  background: url(https://cdn.systweak.com/content/wp/systweak_com/line.webp)
+    left bottom no-repeat;
+  background-size: 100% auto;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.instructions-heading {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: latoWebbold;
+}
+
+.install-instructions-col p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.install-instructions-col ol {
+  display: block;
+  margin: 0;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.install-instructions-col ol li {
+  list-style: inherit;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 10px;
+  font-family: latoWebmedium;
+}
+
+.install-instructions-col ol li p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.install-instructions-mac p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin-bottom: 15px;
+}
+
+.install-instructions-mac > img {
+  margin-bottom: 30px;
+}
+
+.install-instructions-mac {
+  margin-top: 30px;
+}
+
+.app-store-btn,
+.google-play-btn {
+  padding: 0;
+}
+
+.download-count-col,
+.reviews-count-col {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.app-store-btn {
+  margin-left: 15px;
+}
+
+.product-bottom-dcf-and .app-store-btn {
+  margin-left: 0;
+}
+
+.products-page-bottom02 {
+  background: url(https://cdn.systweak.com/content/wp/systweak_com/product_bottom_bg02.jpg)
+    center top no-repeat;
+  padding-bottom: 0;
+  padding-top: 24px;
+  background-size: cover;
+}
+
+.products-page-bottom02 .products-bottom-info {
+  margin-top: 45px;
+}
+
+.products-page-bottom02 .download-count-col,
+.products-page-bottom02 .reviews-count-col {
+  margin-left: 15px;
+}
+
+.info-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn.systweak.com/content/wp/systweak_com/bc-bg.webp)
+    repeat 0 0;
+  z-index: 9999;
+}
+
+.info-modal-inner {
+  border-radius: 3px;
+  margin: 30px auto;
+  max-width: 630px;
+  padding: 25px 25px 15px 25px;
+  background: #fff;
+  position: relative;
+  overflow: auto;
+}
+
+.info-modal-inner h1,
+.info-modal-inner h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: auto;
+  text-align: left;
+  font-weight: 400;
+}
+
+.info-modal-inner p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #555;
+  line-height: 26px;
+  /* text-align: justify */
+}
+.footer-modal .modal-bottom-close {
+  border: none;
+  background: #fff0;
+  color: #337ab7;
+  outline: none !important;
+}
+
+.footer-modal .modal-bottom-close:hover {
+  text-decoration: underline;
+}
+
+.info-close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 0;
+  color: #777;
+  border: none;
+  outline: none !important;
+  font-family: latoWebbold;
+  cursor: pointer;
+  line-height: 18px;
+  width: 18px;
+  text-align: center;
+  background: #ddd;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.modal-outer {
+  overflow: hidden;
+}
+
+.modal-right {
+  float: right;
+  max-width: 110px;
+  padding-top: 5px;
+}
+
+.modal-left * {
+  max-width: 100% !important;
+}
+
+.modal-left {
+  float: left;
+  max-width: 100%;
+  width: 455px;
+}
+
+.footer-modal {
+  text-align: right;
+  margin-top: 0;
+}
+
+.footer-modal a {
+  color: #003cff;
+  text-decoration: underline;
+}
+
+.footer-modal a:hover {
+  text-decoration: none;
+}
+
+.after-update {
+  padding: 70px 0 100px;
+}
+
+.after-update h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  margin: 0 0 46px;
+}
+
+.ch-update {
+  width: 1170px;
+  min-height: 437px;
+  position: relative;
+}
+
+.ch-update-offer {
+  position: absolute;
+  left: -6px;
+  top: -6px;
+}
+
+.sam-update-promo {
+  padding: 155px 0 0;
+  position: relative;
+}
+
+.ind-day-offer {
+  background: url(https://cdn.systweak.com/content/wp/sav/after-update-bg1.webp)
+    no-repeat scroll 0 0;
+  position: relative;
+  width: inherit;
+  max-width: 100%;
+  background-size: 100% 100%;
+}
+
+.ind-day-offer .sam-update-promo {
+  padding: 30px 0;
+}
+
+.ind-day-offer .ch-update-offer {
+  left: -6px;
+  top: -6px;
+  z-index: 1;
+}
+
+.sam-update-left {
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.sam-update-right {
+  padding-right: 30px;
+}
+
+.sam-update-right .pro-desc {
+  font-size: 21px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-left: 80px;
+}
+
+.sam-update-right .pro-desc strong {
+  font-family: latoWebmedium;
+}
+
+.sam-update-right .inst-ofrhead1 {
+  font-size: 55px;
+  color: #df0d0b;
+  font-family: latoWebbold;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.sam-update-right .inst-ofrhead1 span {
+  font-size: 30px;
+  color: #3f3f3f;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.sam-update-left {
+  padding-top: 45px;
+  position: relative;
+}
+
+.app-esteem-logo {
+  position: absolute;
+  top: 20px;
+  right: -70px;
+  width: 22%;
+  z-index: 9;
+}
+
+.app-esteem-logo img {
+  max-width: 100% !important;
+}
+
+.sam-time-left {
+  background: url(https://cdn.systweak.com/content/wp/systweak_com/sam-time-left.webp)
+    no-repeat scroll center center;
+  text-align: center;
+  color: #3f3f3f;
+  line-height: 21px;
+}
+
+.ch-update .h-hidden {
+  overflow: hidden;
+  clear: both;
+}
+
+.sam-price {
+  float: left;
+  font-size: 23px;
+  color: #3f3f3f;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.sam-price span {
+  float: left;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.sam-price .new {
+  color: #df0d0b;
+  font-size: 48px;
+  padding: 0 10px 0 8px;
+  margin: 0;
+  font-family: latoWebsemibold;
+  letter-spacing: -3px;
+}
+
+.sam-price .old {
+  position: relative;
+  width: 90px;
+}
+
+.sam-price .old > img {
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.sam-orange-btn {
+  position: relative;
+  float: right;
+  text-decoration: none;
+  padding: 14px 88px 11px 40px;
+  background: #df0d0b;
+  color: #fff;
+  font-family: latoWebsemibold;
+  font-size: 19px;
+  letter-spacing: 0;
+  border-radius: 35px;
+  line-height: 35px;
+  position: relative;
+  -webkit-transition: all ease-in-out 0.1s;
+  -ms-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.sam-orange-btn > .arrow-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 52px;
+  height: 52px;
+  background: #fff;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.arrow-icon > i {
+  width: 16px;
+  height: 13px;
+  background: url(https://cdn.systweak.com/content/wp/sav/sam-arrow.webp)
+    no-repeat scroll 0 0;
+  display: block;
+  margin: 20px 0 0 18px;
+}
+
+.sam-orange-btn:active,
+.sam-orange-btn:focus {
+  color: #fff;
+}
+
+.sam-orange-btn:hover {
+  color: #fff;
+  background: #d10200;
+  text-decoration: none;
+}
+
+.sam-update-right .mnybck-txt {
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 15px;
+  line-height: 1.2;
+}
+
+.sam-update-right .mnybck-txt .red {
+  color: #df0d0b;
+}
+
+.sam-update-right .dpff-updt-head {
+  font-size: 36px;
+  color: #3f3f3f;
+  text-align: center;
+  line-height: 38px;
+  margin-top: 0;
+  font-family: latoWebsemibold;
+}
+
+.sam-update-right .dpff-updt-sub {
+  font-size: 20px;
+  color: #3f3f3f;
+  padding: 5px 0 !important;
+  margin: 0;
+  text-align: center;
+}
+
+.sam-update-promo .inline-list li {
+  display: inline-block;
+  padding: 0 3px;
+  font-size: 14px;
+}
+
+.sam-update-promo .inline-list li .circul {
+  position: relative;
+  background: url(https://cdn.systweak.com/content/wp/sav/check-icon.webp);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  background-size: 100%;
+  top: 4px;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.sam-update-right .inst-ofrhead1.orange-text {
+  color: #ff5f00;
+}
+
+.bg-green-btn {
+  background: #08a715;
+  float: left;
+  margin-left: 30px;
+}
+
+.bg-green-btn:active,
+.bg-green-btn:focus,
+.bg-green-btn:hover {
+  background: #049810;
+  color: #fff;
+}
+
+.bg-green-btn .arrow-icon > i {
+  width: 16px;
+  height: 18px;
+  background: url(https://cdn.systweak.com/content/wp/sav/download-icon-green.webp)
+    no-repeat scroll 0 0;
+  display: block;
+  margin: 18px 0 0 19px;
+}
+
+.bg-light-orange-btn {
+  background: #ff5f00;
+}
+
+.bg-light-orange-btn .arrow-icon > i {
+  background: url(https://cdn.systweak.com/content/wp/sav/sam-arrow-orange.webp)
+    no-repeat scroll 0 0;
+}
+
+.bg-light-orange-btn:active,
+.bg-light-orange-btn:focus,
+.bg-light-orange-btn:hover {
+  color: #fff;
+  background: #f16716;
+}
+
+.sam-update-promo-bot {
+  background: #317ae0;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  line-height: 53px;
+}
+
+.not-found-page-col {
+  text-align: center;
+  padding: 160px 0 120px;
+}
+
+.not-found-page-col .not-found-img {
+  margin: 0 auto 65px;
+}
+
+.not-found-title-col {
+  padding: 9px 0 15px;
+  margin-bottom: 50px;
+}
+
+.not-found-title-col .head-title {
+  color: #fc5b4c;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.not-found-title-col .desc-text {
+  color: #747474;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 2px 0 0;
+}
+
+.not-found-page-col .go-back-btn {
+  width: 120px;
+  background: #f8fafd
+    url(https://cdn.systweak.com/content/wp/sav/back_icon.webp) no-repeat 3px
+    center;
+  border-radius: 50px;
+  color: #0bb040;
+  display: block;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 0 38px;
+  margin: 0 auto;
+  text-decoration: none;
+  border: solid 2px #08b43a;
+  text-transform: uppercase;
+}
+
+.not-found-page-col .go-back-btn:hover {
+  background: #00a931
+    url(https://cdn.systweak.com/content/wp/sav/back_icon.webp) no-repeat 3px
+    center;
+  color: #fff;
+}
+
+.download-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/download-banner-bg.webp)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.download-banner .down-btn-col {
+  max-width: 285px;
+  width: 285px;
+  float: left;
+}
+
+.download-banner .banner-content .heading-4 {
+  margin-bottom: 50px;
+}
+
+.download-banner .banner-content .heading-1 {
+  margin-bottom: 7px;
+}
+
+.download-banner .ftr-award-security-logos .logo-list {
+  display: block;
+}
+
+.download-banner .ftr-award-security-logos {
+  margin-left: 315px;
+  padding-top: 4px;
+}
+
+.free-trial-text {
+  text-align: center;
+  color: #fcca45;
+  font-size: 24px;
+  padding-bottom: 2px;
+}
+
+.download-title-row {
+  padding-top: 57px;
+  padding-bottom: 54px;
+}
+
+.download-heading-icon {
+  float: left;
+  padding-top: 3px;
+}
+
+.download-heading-info {
+  padding-left: 97px;
+}
+
+.download-heading-info p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #3c82cd;
+}
+
+.download-heading-info p a,
+.download-heading-info p button.btn-download.ref-dllink {
+  color: #3c82cd;
+  border: none;
+  background: none;
+}
+
+.download-heading {
+  color: #0d123a;
+  font-size: 31px;
+  line-height: 40px;
+  font-family: LatoWebBold;
+  margin: 0 0 5px;
+}
+
+.download-sub-heading {
+  color: #464646;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 -2px;
+}
+
+.reload-icon {
+  cursor: pointer;
+  padding: 0 5px 4px;
+  margin-left: 2px;
+}
+
+.download-steps {
+  margin-top: 7px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.steps-icon {
+  display: block;
+  background: url(https://cdn.systweak.com/content/wp/sav/download_steps_icon.webp)
+    no-repeat scroll 0 0;
+  width: 32px;
+  height: 33px;
+  float: left;
+  margin-top: 5px;
+}
+
+.step-02 {
+  background-position: -34px top;
+}
+
+.step-03 {
+  background-position: -68px top;
+}
+
+.steps-heading {
+  color: #10131b;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  display: block;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 0;
+  min-height: 40px;
+}
+
+.steps-heading span {
+  display: block;
+}
+
+.step-col {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.download-outer-box {
+  border: #d6d6d6 solid 1px;
+  width: 100%;
+  -o-box-shadow: 0 1px 2px 0 rgba(21, 21, 21, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(21, 21, 21, 0.1);
+  -moz-box-shadow: 0 1px 2px 0 rgba(21, 21, 21, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(21, 21, 21, 0.1);
+}
+
+.steps-title {
+  background: #f0f0f0;
+  padding: 15px 14px 14px;
+}
+
+.steps-screen-outer {
+  display: table;
+  padding: 0 12px;
+}
+
+.steps-screen-col {
+  display: table-cell !important;
+  vertical-align: middle;
+  text-align: center;
+  height: 290px;
+}
+
+.steps-screen-col img {
+  width: 100%;
+  max-width: 370px;
+}
+
+.face-problem-box {
+  padding: 1px 0 71px;
+}
+
+.face-problem-icon {
+  float: left;
+  width: 66px;
+}
+
+.face-problem-info {
+  padding: 11px 32px 10px;
+  margin-left: 68px;
+}
+
+.face-problem-info p {
+  font-size: 15px;
+  color: #404040;
+  line-height: 18px;
+  margin-bottom: 1px;
+}
+
+.face-problem-info a {
+  color: #0d123a;
+  font-size: 27px;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.award-winning-download {
+  background: #fafcff
+    url(https://cdn.systweak.com/content/wp/sav/download-product-bg.jpg)
+    no-repeat center 0;
+  background-size: cover;
+}
+
+.sav-product-img img {
+  max-width: inherit;
+  float: right;
+  margin-top: 75px;
+}
+
+.award-winning-download .award-security-logos {
+  float: none;
+  padding: 13px 0 44px;
+}
+
+.award-winning-download .down-btn-col {
+  float: left;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+.award-winning-download .down-btn-col a.download-btn {
+  line-height: 60px;
+  font-size: 19px;
+  box-shadow: 0 6px 25px rgba(13, 18, 58, 0.28);
+}
+
+.award-winning-download ul.logo-list {
+  float: left;
+  margin-left: 24px;
+}
+
+.award-winning-download ul.logo-list li {
+  margin-right: 13px;
+}
+
+.award-winning-download .ftr-about-content-col .heading-4 {
+  margin: 0 0 12px;
+}
+
+.award-winning-download .awa-list {
+  margin: 8px -20px 0 0;
+}
+
+.award-winning-download .ftr-about-content-col {
+  padding: 78px 0 40px;
+}
+
+ul.banner-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: left;
+}
+
+ul.banner-list li {
+  display: block;
+  background: url(https://is.systweak.com/content/images/sys/website/systweaknewimages/lp1/sav/check-icon.webp)
+    left 2px no-repeat;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c6c6c7;
+  font-weight: 500;
+  margin-top: 15px;
+  padding-left: 35px;
+}
+
+/*download instruction start*/
+#download-instructions #download-arrow-chrome {
+  left: 30px;
+  bottom: 15px;
+}
+
+#download-instructions .download-panel {
+  position: fixed;
+  z-index: 1000;
+}
+
+#download-instructions #download-panel-ie {
+  /* bottom: 60px;
+  left: 50%;
+  transform: translate(-120px,0);*/
+  bottom: 100px;
+  left: 50%;
+  margin-left: -120px;
+}
+
+#download-instructions #download-panel-edge {
+  /*bottom: 75px;
+  left: 50%;
+  transform: translate(150px,0);*/
+  bottom: 100px;
+  left: 50%;
+  margin-left: -120px;
+}
+
+#download-instructions #download-panel-chrome {
+  bottom: 15px;
+  left: 180px;
+}
+
+#download-instructions #download-panel-firefox {
+  right: 180px;
+  top: 30px;
+}
+
+#download-instructions #download-panel-safari {
+  right: 180px;
+  top: 30px;
+}
+
+#download-instructions .download-panel .download-instructions {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 150px;
+  margin: 0 10px;
+  position: relative;
+  width: 240px;
+}
+
+#download-instructions .download-panel .title {
+  background-color: #dd1d25;
+  border-radius: 16px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  height: 32px;
+  line-height: 28px;
+  left: 50%;
+  padding-top: 2px;
+  position: absolute;
+  text-align: center;
+  top: -12px;
+  margin-left: -105px;
+  /* transform: translate(-50%,0); */
+  width: 210px;
+}
+
+#download-instructions .download-panel .detail {
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 36px;
+  text-align: left;
+}
+
+#download-instructions .download-arrow {
+  position: fixed;
+  z-index: 1000;
+}
+
+#download-instructions #download-arrow-ie {
+  /* left: 50%;
+  bottom: 60px;
+  transform: translate(180px,0);*/
+  left: 60%;
+  bottom: 100px;
+}
+
+#download-instructions #download-arrow-edge {
+  /*bottom: 75px;
+  left: 60%;*/
+  left: 60%;
+  bottom: 100px;
+}
+
+#download-instructions #download-arrow-chrome {
+  left: 30px;
+  bottom: 15px;
+}
+
+#download-instructions #download-arrow-firefox {
+  right: 20px;
+  top: 20px;
+}
+
+#download-instructions #download-arrow-safari {
+  right: 20px;
+  top: 20px;
+}
+
+/*download instruction end*/
+
+/* Nitesh Added End*/
+
+/* premiumupgrade2 pages css start */
+.premiumupgrade-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/premiumupgrade2.jpg) no-repeat
+    center 0;
+}
+.premiumupgrade2-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/premiumupgrade2.jpg) no-repeat
+    center 0;
+}
+.premiumupgrade3-banner {
+  background: #080707
+    url(https://cdn.systweak.com/content/wp/sav/premiumupgrade.jpg) no-repeat
+    center 0;
+}
+.premiumupgrade-ctn .banner-content {
+  margin-left: 0;
+  padding-left: 41px;
+}
+.premiumupgrade-ctn .banner-content .heading-1 {
+  margin: 105px 0 38px;
+}
+
+.prmm-features-section {
+  padding: 0 0 64px;
+}
+
+.prmm-features-outer {
+  text-align: center;
+}
+
+.prmm-features-outer .head-text-col h2 {
+  color: #0e1338;
+  font-size: 36px;
+  font-family: LatoWebBold;
+  margin: 104px 0 17px;
+}
+
+.prmm-features-outer .head-text-col p {
+  color: #464646;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 62px;
+  padding: 0 10%;
+}
+
+.prmm-features-box {
+  padding: 0;
+}
+
+.prmm-features-box .heading-4 {
+  color: #000000;
+  font-size: 20px;
+  margin: 10px 0 6px;
+}
+
+.prmm-features-box p {
+  color: #45464d;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  /* font-family:latoWebsemibold; */
+}
+
+.prmm-table-outer {
+  box-shadow: 0px 1px 4px 0px rgba(114, 134, 191, 0.22);
+}
+.prmm-table-outer .table {
+  border: solid 1px #dbdbdb;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.prmm-table-outer .table thead th,
+.prmm-table-outer .table tbody td {
+  border: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+.prmm-table-outer .table thead th {
+  padding: 1px 15px;
+  text-align: center;
+}
+.prmm-table-outer .table tbody td {
+  padding: 15px 36px;
+}
+.recommended-ftr {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: latoWebsemibold;
+}
+.install-prem-os {
+  color: #242424;
+  font-size: 20px;
+  font-family: latoWebsemibold;
+  line-height: 23px;
+  margin: 0;
+  padding: 27px 30px 0;
+}
+.install-os-text {
+  color: #242424;
+  font-size: 16px;
+  font-family: latoWeblight;
+  margin: 0 0 22px;
+}
+.tick-icon {
+  text-align: center;
+  vertical-align: middle;
+}
+p.prmm-text-title {
+  margin: 0;
+  color: #000000;
+  font-size: 17px;
+  font-family: latoWebsemibold;
+  padding: 10px 24px;
+}
+
+.prmm-download-btn {
+  width: 208px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: latoWebsemibold;
+  line-height: 44px;
+  border-radius: 3px;
+  border: solid 1px #f25e1d;
+  background: #eb0e12;
+  padding: 0 15px;
+  margin: 12px 0;
+}
+.prmm-download-btn:hover {
+  color: #fff;
+  background: #ff0005;
+}
+.windows-device-text {
+  color: #242424;
+  font-size: 16px;
+  text-align: center;
+  padding: 9px 0 0;
+}
+.windows-device-text a {
+  color: #3672c0;
+  text-decoration: none;
+}
+.windows-device-text a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-section {
+  padding: 7px 0 60px;
+  background: #fafcff;
+  margin-top: 64px;
+}
+.newsletter-text-col {
+  padding: 71px 0 16px;
+}
+.newsletter-text-col .heading-5 {
+  color: #0e1338;
+  font-size: 31px;
+  margin: 0 0 11px;
+}
+.newsletter-text-col p {
+  color: #45464d;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.newsletter-form-col {
+  padding: 86px 0 26px;
+  margin-right: -30px;
+}
+.newsletter-form-col .form-inline {
+  overflow: hidden;
+}
+.newsletter-form-col .form-inline .form-group {
+  float: left;
+}
+.newsletter-form-col .form-inline .form-control {
+  width: 334px;
+  border: solid 1px #bdc5d1;
+  border-radius: 3px;
+  padding: 10px 20px;
+  height: 60px;
+  font-size: 16px;
+  color: #45464d;
+}
+.newsletter-form-col .btn-primary {
+  margin-left: 10px;
+  padding: 0 27px;
+  line-height: 60px;
+  border: none;
+  background: #4f84c8;
+  color: #ffffff;
+  font-size: 17px;
+  float: left;
+  box-shadow: inherit !important;
+}
+.newsletter-form-col .btn-primary:hover {
+  background: #4e8bda;
+}
+span.mail-icon {
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 50%;
+  background: #4076bc;
+  height: 42px;
+  width: 42px;
+  margin-left: 18px;
+}
+.mail-icon img {
+  vertical-align: top;
+}
+@-moz-document url-prefix() {
+  p.prmm-text-title,
+  .install-prem-os,
+  .recommended-ftr {
+    font-family: latoWeblight;
+  }
+  .install-os-text {
+    font-weight: 400;
+  }
+}
+/* premiumupgrade2 pages css end */
+
+/* premiumupgrade page css start */
+.premiumupgrade-plan {
+  padding: 49px 0 0;
+}
+
+.premiumupgrade-plan .premiumupgrade-accordians-col {
+  padding-top: 67px;
+  min-height: 508px;
+  margin-bottom: 20px;
+}
+.premiumupgrade-plan .mng-faq-box {
+  background: #fff;
+  border-radius: 4px;
+  padding: 0 0 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(108, 134, 196, 0.22);
+  border: solid 1px #dbdbdb;
+  min-height: 777px;
+}
+.premiumupgrade-accordians-col .accordion > .card {
+  border: 1px solid #dfe0e1;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.premiumupgrade-accordians-col .accordion > .card > .card-header {
+  background: 0 0;
+  border: none;
+  padding: 0;
+}
+
+.premiumupgrade-accordians-col .accordion > .card > .card-header .btn {
+  color: #000000;
+  font-size: 17px;
+  line-height: 32px;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  padding: 16px 20px 16px 55px;
+  position: relative;
+  box-shadow: none !important;
+  white-space: nowrap;
+  font-family: LatoWebMedium;
+}
+
+.premiumupgrade-accordians-col
+  .accordion
+  > .card
+  > .card-header
+  .btn
+  .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/minus01.webp)
+    no-repeat center center;
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 30px;
+  top: 24px;
+}
+
+.premiumupgrade-accordians-col
+  .accordion
+  > .card
+  > .card-header
+  .btn.collapsed
+  .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/plus01.webp) no-repeat
+    center center;
+}
+
+.premiumupgrade-accordians-col .card-body {
+  padding: 0 15px 10px 52px;
+  background: #fff;
+  color: #6d6d6d;
+  font-size: 15px;
+  line-height: 21px;
+  border: none !important;
+}
+
+.premiumupgrade-accordians-col .card-body ul li {
+  line-height: 34px;
+}
+
+.premiumupgrade-accordians-col .panel {
+  border: 1px solid #dfe0e1;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.premiumupgrade-accordians-col .panel-heading {
+  background: 0 0;
+  border: none;
+  padding: 0;
+}
+
+.premiumupgrade-accordians-col .panel-heading .panel-title a {
+  color: #000;
+  font-size: 17px;
+  line-height: 32px;
+  font-family: LatoWebSemibold;
+  text-decoration: none;
+  padding: 0;
+  display: block;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  background: url("") no-repeat scroll 15px 14px;
+  padding: 13px 60px 13px 70px;
+  position: relative;
+}
+
+.premiumupgrade-accordians-col .panel-heading .panel-title a .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/minus.webp) no-repeat
+    center center;
+  background-size: 14px;
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 24px;
+  top: 22px;
+}
+
+.premiumupgrade-accordians-col
+  .panel-heading
+  .panel-title
+  a.collapsed
+  .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/plus.webp) no-repeat
+    center center;
+  background-size: 14px;
+}
+
+.premiumupgrade-accordians-col .panel-body {
+  padding: 4px 15px 45px 70px;
+  background: #fff;
+  color: #6d6d6d;
+  font-size: 15px;
+  line-height: 21px;
+  border: none !important;
+}
+
+.premiumupgrade-accordians-col .down-btn-col {
+  margin: 50px auto 0;
+}
+
+.recommended-ftr02 {
+  background: #eb0e12;
+  color: #ffffff;
+  font-size: 16px;
+  min-height: 26px;
+  line-height: 26px;
+}
+.recommended-ftr02.whit-blank {
+  background: #fff;
+}
+.mbg-head-col {
+  text-align: center;
+}
+.mbg-heading-text {
+  color: #242424;
+  font-size: 26px;
+  font-family: LatoWebMedium;
+  line-height: 23px;
+  margin: 0;
+  padding: 44px 30px 11px;
+}
+.mbg-sub-text {
+  color: #242424;
+  font-size: 26px;
+  font-family: latoWeblight;
+  margin: 0 0 0;
+}
+
+.btn.prmm-download-btn02 {
+  width: 208px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: LatoWebMedium;
+  line-height: 44px;
+  border-radius: 3px;
+  border: solid 1px #f25e1d;
+  background: #eb0e12;
+  padding: 0 15px;
+  margin: 12px auto;
+  display: block;
+}
+.btn.prmm-download-btn02:hover {
+  color: #fff;
+  background: #ff0005;
+}
+.btn.prmm-download-btn02.unfill-btn {
+  border-color: #eb0e12;
+  background: #fff;
+  color: #eb0e12;
+}
+.btn.prmm-download-btn02.unfill-btn:hover {
+  border-color: #eb0e12;
+  background: #ff0005;
+  color: #fff;
+}
+.premiumupgrade-plan .windows-device-text {
+  padding: 55px 0 0;
+}
+
+/* Newsletter css */
+.justify-content-md-center .col-md-6 {
+  margin: 0 auto;
+}
+.newsletter-colum-view {
+  padding: 7px 0 80px;
+  background: #fafcff;
+  margin-top: 64px;
+}
+.newsletter-outer-new {
+  width: 50%;
+  margin: 0 auto;
+}
+.cl-newsletter-text-col {
+  padding: 71px 0 15px;
+  text-align: center;
+}
+.cl-newsletter-text-col .heading-5 {
+  color: #0e1338;
+  font-size: 31px;
+  margin: 0 0 11px;
+}
+.cl-newsletter-text-col p {
+  color: #45464d;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.new-newsletter-form-col {
+  padding: 20px 0 0;
+  margin: 0 auto;
+  max-width: 456px;
+}
+.new-newsletter-form-col .form-inline {
+  overflow: hidden;
+  border: solid 1px #4f84c8;
+  border-radius: 60px;
+  background: #ffffff;
+  display: block;
+  padding: 4px;
+}
+.new-newsletter-form-col .form-inline .form-group {
+  width: 63%;
+  float: left;
+}
+.new-newsletter-form-col .form-inline .form-control {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  padding: 10px 28px;
+  height: 50px;
+  font-size: 16px;
+  color: #45464d;
+  outline: none !important;
+  box-shadow: inherit !important;
+}
+.new-newsletter-form-col .btn-primary {
+  padding: 0 4px 0 24px;
+  line-height: 50px;
+  border: none;
+  background: #4f84c8;
+  color: #ffffff;
+  font-size: 17px;
+  float: right;
+  width: 35%;
+  border-radius: 60px;
+  text-align: left;
+}
+.new-newsletter-form-col .btn-primary:hover {
+  background: #4e8bda;
+}
+span.mail-icon02 {
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 50%;
+  background: #ffffff;
+  height: 42px;
+  width: 42px;
+  margin-left: 0;
+  float: right;
+  margin-top: 4px;
+}
+.mail-icon02 img {
+  vertical-align: top;
+}
+.alert {
+  margin: 10px 0 0;
+  width: 334px;
+  font-size: 15px;
+}
+/* premiumupgrade page css end */

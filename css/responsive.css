@@ -1,0 +1,1992 @@
+@media (max-width: 1230px) {
+  .banner-content .heading-1 {
+    font-size: 50px;
+  }
+  .sav-product-img img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .banner-img-col img {
+    max-width: 100%;
+    height: auto;
+  }
+  .header-row {
+    padding: 0 2%;
+  }
+  .header-row .navbar-brand {
+    font-size: 24px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0;
+    margin: 0 10px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 48px;
+    position: absolute;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .banner-section {
+    background-position: center;
+    padding: 30px 0 40px;
+  }
+  .banner-content {
+    padding: 100px 0 20px;
+  }
+  .banner-content .heading-1 {
+    font-size: 42px;
+    line-height: 46px;
+    word-break: break-word;
+  }
+  .banner-content .heading-4 {
+    font-size: 18px;
+  }
+  .banner-img-col .bnr-img {
+    max-width: 100%;
+  }
+  .down-btn-col a.download-btn {
+    font-size: 18px;
+    line-height: 55px;
+    margin-right: 10px;
+  }
+  .header-row .navbar {
+    padding: 10px 0;
+  }
+  .app_esteem_Logo1 {
+    margin-right: 10px;
+  }
+  .down-btn-col a.buy-btn {
+    width: 172px;
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .subscription-btn {
+    margin-bottom: 20px;
+  }
+  .subscription-today-title {
+    margin-bottom: 15px;
+  }
+  .banner-img-col {
+    padding: 40px 0;
+  }
+  .about-screen-col img {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .sav-step-box {
+    padding: 0;
+  }
+  .feature-icon {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+  }
+  .about-content-col {
+    padding: 60px 0 0;
+  }
+  .faq-content {
+    padding: 70px 0 50px;
+  }
+  .faq-content .heading-2 {
+    margin-bottom: 40px;
+  }
+  .carousel-control {
+    margin-top: 165px;
+  }
+  .carousel-control.left {
+    margin-left: 0;
+  }
+  .carousel-control.right {
+    margin-right: 0;
+  }
+  .testimonial-section {
+    padding-bottom: 60px;
+  }
+  .carousel-control.left {
+    left: 20px;
+  }
+  .carousel-control.right {
+    right: 20px;
+  }
+  .pc-step-content {
+    padding: 38px 0 0 0;
+  }
+  .price-accordians-col .panel-default > .panel-heading a {
+    padding: 24px 15px 24px 54px;
+  }
+  .price-accordians-col {
+    min-height: 800px;
+  }
+  .bottom-price-col span {
+    font-size: 24px;
+  }
+  .promise-logo {
+    width: 90px;
+    margin: 0 auto;
+  }
+  .promise-text-info .heading-5 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  .promise-text-info {
+    margin-left: 10px;
+    padding-top: 0;
+  }
+  .foo-left .foo-menu li {
+    padding: 0 9px;
+  }
+  .price-plan-box .price-new-top {
+    font-size: 32px;
+  }
+  .footer-about-col {
+    padding-right: 0;
+  }
+  .no-risk-text {
+    padding: 0;
+  }
+  .feature-banner,
+  .home-banner {
+    min-height: auto;
+    max-height: none;
+  }
+  .tstml-content {
+    min-height: 240px;
+    max-height: 240px;
+  }
+  .feature-banner .banner-content {
+    padding: 100px 0 50px;
+  }
+  .about-ftr-img img,
+  .aboutftr3 .about-ftr-img img,
+  .aboutftr4 .about-ftr-img img {
+    max-width: 100%;
+  }
+  .about-ftr-img img {
+    margin-top: -10px;
+  }
+  .ftr-about-content-col {
+    padding: 0 0 30px 0;
+  }
+  .sav-features-box {
+    padding: 0 0 80px;
+  }
+  .aboutftr3 .ftr-about-content-col {
+    padding: 75px 0 30px 0;
+  }
+  .aboutftr2 .ftr-about-content-col {
+    padding: 65px 0 30px 0;
+  }
+  .award-winning-section .ftr-about-content-col {
+    padding: 95px 50px 40px 0;
+  }
+  .award-content-col .award-security-text {
+    padding-right: 85px;
+  }
+  .award-content-col .logo-list li {
+    margin-right: 10px;
+  }
+  .award-content-col .award-security-logos {
+    margin-left: -85px;
+  }
+  .inner-page {
+    min-height: auto;
+  }
+  .inner-page .banner-content {
+    padding: 90px 0 30px;
+  }
+  .sav-support-box {
+    padding: 28px 15px 17px;
+  }
+  .sav-support-box .heading-4 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .faq-content.faq-box-content {
+    padding: 0 15px 50px;
+  }
+  .contact-support-box p {
+    font-size: 18px;
+  }
+  .contactus-content {
+    padding: 0 35px 50px;
+  }
+  .steps-title {
+    padding: 15px 10px 14px;
+  }
+  .steps-heading {
+    font-size: 14px;
+  }
+  .award-winning-download ul.logo-list {
+    float: none;
+    margin-left: 0;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+  }
+  .heading-award-win {
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 26px;
+    line-height: 36px;
+    color: #060607;
+  }
+  .award-winning-list {
+    margin-top: 35px;
+  }
+  .award-winning {
+    padding-bottom: 40px;
+  }
+  .download-banner .ftr-award-security-logos {
+    margin-left: 295px;
+  }
+  .ftr-award-security-logos .logo-list li {
+    margin-right: 12px;
+  }
+  .container-950,
+  .container-large {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sam-price {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  .sam-price span {
+    float: none;
+  }
+  .sam-orange-btn {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .sam-orange-btn {
+    padding-right: 68px;
+    margin-bottom: 15px;
+  }
+  .sam-time-left {
+    margin-bottom: 15px;
+  }
+  .newsletter-form-col .form-inline .form-control {
+    width: 255px;
+  }
+  .install-prem-os {
+    padding: 27px 10px 0;
+  }
+  .prmm-download-btn {
+    width: auto;
+    display: block;
+  }
+  .newsletter-form-col {
+    margin-right: 0;
+  }
+  span.mail-icon {
+    margin-left: 8px;
+  }
+  .premiumupgrade-accordians-col .accordion > .card > .card-header .btn {
+    white-space: normal;
+    line-height: 22px;
+  }
+  .premiumupgrade-accordians-col
+    .accordion
+    > .card
+    > .card-header
+    .btn
+    .plus-minus {
+    top: 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .offset-none {
+    padding: 0;
+  }
+  .offset-left-none {
+    padding-left: 15px;
+  }
+  .offset-right-none {
+    padding-right: 15px;
+  }
+  .header-row {
+    padding: 0;
+  }
+  .header-row .navbar-brand {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .header-row .navbar-brand img {
+    width: auto;
+    margin-right: 5px;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+  }
+  .navbar-nav {
+    float: right;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item {
+    margin: 0 5px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  .navbar-expand-lg .navbar-nav .download-h-btn {
+    padding: 0 11px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 45px;
+    left: -65px;
+  }
+  .banner-img-col {
+    padding: 10px 0 0;
+  }
+  .banner-img-col .bnr-img {
+    float: none;
+  }
+  .banner-content {
+    padding: 60px 0 10px;
+  }
+  .banner-section .container {
+    margin-top: 30px;
+  }
+  .banner-section {
+    height: auto;
+    max-height: inherit;
+    padding-bottom: 35px;
+  }
+  .down-btn-col a.btn {
+    padding: 0 20px 0 23px;
+  }
+  .down-btn-col a.download-btn {
+    padding: 0 20px 0 23px;
+  }
+  .download-icon {
+    margin-left: 7px;
+  }
+  .sav-step-box {
+    padding: 0;
+  }
+  .pc-step-content .heading-4 {
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 600;
+  }
+  .pc-scan-ftr {
+    padding: 18px 0;
+  }
+  .sav-step-box .heading-4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .vpn-status-detail {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .head-text-col p {
+    margin-bottom: 40px;
+  }
+  .head-text-col {
+    padding: 0;
+  }
+  .award-winning .head-text-col {
+    padding: 40px 0 0;
+  }
+  .svpn-about-section {
+    padding-bottom: 20px;
+  }
+  .about-content-col {
+    padding: 60px 0;
+  }
+  .sav-steps-section {
+    padding: 0 0 30px;
+  }
+  .sav-step-box .heading-4 {
+    font-size: 18px;
+  }
+  .steps-head-text .heading-5 {
+    font-size: 40px;
+  }
+  .pro-left-box {
+    padding: 95px 30px 53px;
+  }
+  .down-btn-col p a,
+  ul.os-link-bnr li {
+    color: #f1f1f1;
+  }
+  .choose-paln-sec {
+    padding-top: 60px;
+  }
+  .faq-section {
+    padding: 40px 0;
+  }
+  .faq-content {
+    padding: 50px 0;
+  }
+  .faq-content .heading-2 {
+    margin-bottom: 30px;
+  }
+  .faq-content .panel {
+    margin-bottom: 10px;
+  }
+  .faq-content .accordion > .card > .card-header .btn {
+    padding: 10px 15px 10px 25px;
+  }
+  .faq-content .accordion > .card > .card-header .btn .plus-minus {
+    left: 0;
+    top: 17px;
+  }
+  .faq-content .card-body {
+    padding: 0 15px 15px 25px;
+  }
+  .panel-group {
+    margin-bottom: 0;
+  }
+  .testimonial-section {
+    padding: 30px 0;
+  }
+  .tstml-content .desc-text {
+    background-position: 97% bottom;
+    padding: 0 25px 25px;
+  }
+  .tstml-content {
+    min-height: 280px;
+    max-height: 280px;
+  }
+  .tstml-content {
+    background-position: 3% 102px;
+  }
+  .promise-text-info {
+    max-width: 77%;
+  }
+  .foo-left .foo-menu li {
+    float: left;
+    padding: 0 10px;
+  }
+  .brd-bottom-last {
+    border-bottom: 1px solid #e3e8f2;
+  }
+  .head-text-col .heading-2 {
+    font-size: 34px;
+  }
+  .carousel-inner {
+    width: auto;
+  }
+  .price-plan-box {
+    padding: 0 12px;
+  }
+  .price-plan-box .plan-title {
+    font-size: 31px;
+  }
+  .price-plan-box .old-top-price {
+    font-size: 18px;
+  }
+  .price-plan-box .price-new-top {
+    font-size: 26px;
+  }
+  .price-plan-box.active-plan .plan-title {
+    padding-top: 15px;
+    margin-bottom: 0;
+  }
+  .buy-now-btn {
+    line-height: 42px;
+    font-size: 18px;
+  }
+  .price-plan-box .deviceSubscription-text,
+  .price-plan-box .year-prie-offer,
+  .price-plan-box .year-prie-offer a {
+    font-size: 15px;
+  }
+  .price-accordians-col .accordion > .card > .card-header .btn {
+    padding: 10px 10px 10px 44px;
+    font-size: 15px;
+  }
+  .price-accordians-col .accordion > .card > .card-header .btn .plus-minus {
+    left: 19px;
+    top: 11px;
+  }
+  .bottom-price-col .bt-new-price {
+    padding-left: 0;
+    display: block;
+  }
+  .carousel-control {
+    margin-top: 55px;
+  }
+  .carousel-control.left {
+    margin-left: 0;
+  }
+  .carousel-control.right {
+    margin-right: 0;
+  }
+  .testimonial-section .carousel {
+    padding: 27px 0 90px;
+  }
+  .sav-stpes-outer .head-text-col {
+    padding: 0;
+  }
+  .price-accordians-col .panel-heading .panel-title a .plus-minus {
+    left: 10px;
+    top: 15px;
+  }
+  .price-accordians-col .panel-default > .panel-heading a {
+    padding: 15px 15px 15px 34px;
+    font-size: 14px;
+  }
+  .price-accordians-col .panel-body {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .price-accordians-col {
+    margin: 0 -10px 30px;
+    min-height: 607px;
+  }
+  .price-plan-box .year-prie-offer a {
+    display: block;
+  }
+  .bottom-price-col span {
+    font-size: 22px;
+  }
+  .price-plan-box {
+    min-height: 1140px;
+    padding-bottom: 30px;
+  }
+  .promise-logo {
+    width: 80px;
+    float: none;
+    margin: 0 auto;
+  }
+  .promise-text-info {
+    max-width: 100%;
+    margin: 0;
+    float: none;
+    text-align: center;
+    width: auto;
+  }
+  .promise-text-info p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .our-promise {
+    padding: 0 0 20px;
+  }
+  .colpy-right-row {
+    padding: 15px 0;
+  }
+  .footer-link-col {
+    padding-left: 0;
+  }
+  .footer-link-col.socail-links {
+    margin-left: -10px;
+  }
+  .no-risk-text {
+    padding: 0 0 20px;
+  }
+  .award-winning-list li {
+    display: block;
+    float: left;
+    width: 25%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .award-winning-list li:nth-child(2) img {
+    margin-top: 15px;
+  }
+  .award-winning-list li img {
+    max-width: 90%;
+  }
+  .feature-banner .banner-content {
+    padding: 60px 0 40px;
+  }
+  .sav-features-section .head-text-col h2 {
+    margin: 60px 0 10px;
+  }
+  .sav-features-box {
+    padding-bottom: 50px;
+  }
+  .sav-features-section {
+    padding: 0 0 65px;
+  }
+  .aboutftr2 .about-ftr-img img {
+    margin-right: 0;
+  }
+  .pc-ftr-icon {
+    margin-right: 15px;
+  }
+  .pc-ftr-text {
+    width: 75%;
+  }
+  .ftr-about-content-col .heading-4 {
+    margin-bottom: 5px;
+  }
+  .aboutftr4 .ftr-about-content-col .desc {
+    margin-bottom: 5px;
+  }
+  .pc-scan-ftr {
+    margin-bottom: 0;
+  }
+  .aboutftr4 .ftr-about-content-col {
+    padding-top: 50px;
+  }
+  .aboutftr4 .about-ftr-img img {
+    margin-top: 100px;
+  }
+  .awa-list {
+    margin: 20px 0 0;
+  }
+  .award-winning-section .ftr-about-content-col {
+    padding: 50px 0 0;
+  }
+  .sav-pro-info {
+    float: none;
+  }
+  .sav-pro-info {
+    float: none;
+    margin-top: 20px;
+    padding-bottom: 100px;
+  }
+  .award-content-col .award-security-logos {
+    margin-left: 0;
+  }
+  .award-content-col .award-security-text {
+    padding-right: 15px;
+  }
+  .award-content-col .logo-list {
+    margin-bottom: 20px;
+  }
+  .inner-page .banner-content {
+    padding: 80px 0 20px;
+  }
+  .inner-page .banner-content .heading-1 {
+    margin-bottom: 5px;
+  }
+  .sav-support-box .heading-4 {
+    font-size: 17px;
+    margin: 5px 0 2px;
+  }
+  .sav-support-box .step-img {
+    width: 60px;
+  }
+  .contactus-banner .banner-content {
+    padding: 100px 0 30px;
+  }
+  .contact-support-box p {
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .contact-support-box p a {
+    display: block;
+  }
+  .inner-page-content h3 {
+    margin: 40px 0 10px;
+  }
+  .inner-page-content {
+    padding: 10px 0 30px;
+  }
+  .download-heading {
+    font-size: 30px;
+  }
+  .steps-screen-col {
+    height: 170px;
+  }
+  .download-title-row {
+    padding: 30px 0;
+  }
+  .award-winning-download ul.logo-list {
+    padding-top: 30px;
+  }
+  .sav-product-img {
+    text-align: left;
+    margin-bottom: 60px;
+  }
+  .sav-product-img img {
+    float: none;
+    margin: 0;
+  }
+  .award-winning-download .award-security-logos {
+    padding: 13px 0 30px;
+  }
+  .face-problem-info {
+    margin-left: 50px;
+  }
+  .download-banner .down-btn-col {
+    float: none;
+  }
+  .download-banner .ftr-award-security-logos {
+    margin-left: 0;
+    max-width: 275px;
+  }
+  .download-banner .ftr-award-security-logos .logo-list {
+    display: table;
+    margin: 0 auto;
+  }
+  .container-950,
+  .container-large {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .after-uninstall-middle-col01 {
+    width: 100%;
+    text-align: center;
+  }
+  .after-uninstall-middle-col01 > img {
+    width: 86px;
+  }
+  .after-uninstall-middle-col02 {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .after-uninstall-middle {
+    margin-top: 10px;
+  }
+  .install-pro-box,
+  .install-pro-info {
+    max-width: 100%;
+    width: 100%;
+  }
+  .install-pro-box {
+    text-align: center;
+  }
+  .sam-update-right h2 {
+    padding-left: 0;
+  }
+  .prmm-features-outer .head-text-col p {
+    padding: 0;
+  }
+  .prmm-table-outer .table {
+    table-layout: auto;
+  }
+  .prmm-table-outer .table thead th {
+    vertical-align: top;
+  }
+  .prmm-table-outer .table tbody td {
+    padding: 15px;
+  }
+  .newsletter-form-col {
+    margin-left: 0;
+    padding: 10px 0 0;
+  }
+  .banner-content {
+    padding: 10px 0 10px;
+  }
+  .newsletter-text-col {
+    padding-top: 50px;
+  }
+  .prmm-features-outer .head-text-col h2 {
+    margin: 74px 0 17px;
+  }
+
+  .premiumupgrade-plan {
+    padding: 20px 0 0;
+  }
+  .mbg-heading-text {
+    font-size: 21px;
+    padding: 35px 15px 5px;
+  }
+  .mbg-sub-text {
+    font-size: 21px;
+  }
+  .premiumupgrade-plan .premiumupgrade-accordians-col {
+    padding-top: 30px;
+  }
+  .premiumupgrade-accordians-col
+    .accordion
+    > .card
+    > .card-header
+    .btn
+    .plus-minus {
+    left: 15px;
+    top: 17px;
+  }
+  .premiumupgrade-accordians-col .accordion > .card > .card-header .btn {
+    padding: 14px 20px 14px 40px;
+  }
+  .premiumupgrade-plan .premiumupgrade-accordians-col {
+    min-height: 440px;
+  }
+  .premiumupgrade-plan .mng-faq-box {
+    min-height: 670px;
+  }
+  .premiumupgrade-plan .windows-device-text {
+    padding: 15px 0 0;
+  }
+  .newsletter-outer-new {
+    width: auto;
+  }
+  .newsletter-colum-view {
+    padding: 7px 0 60px;
+  }
+  .cl-newsletter-text-col {
+    padding-top: 60px;
+  }
+  .premiumupgrade2-banner .banner-content .heading-1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offset-none {
+    padding: 0 15px;
+  }
+  .offset-right-none {
+    padding-right: 15px;
+  }
+  .offset-left-none {
+    padding-left: 15px;
+  }
+  .header-row.affix {
+    position: relative;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    margin-top: 10px;
+  }
+  .header-row .navbar {
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-bottom: none;
+  }
+  .navbar-expand-lg .navbar-nav {
+    display: flex !important;
+    float: none;
+    margin: 0;
+    flex: 1;
+    background: #2c97f2;
+  }
+  .navbar-expand-lg .collapse:not(.show) {
+    display: none !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item.active {
+    background: #008aff;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item.active a.nav-link,
+  .navbar-expand-lg .navbar-nav .nav-link:focus,
+  .navbar-expand-lg .navbar-nav .nav-link:hover,
+  .navbar-expand-lg .navbar-nav .nav-item.show .nav-link {
+    color: #fff !important;
+    border: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    line-height: initial;
+    border-bottom: solid 1px #2088e0;
+  }
+  .dropdwonmenulinks .dropdown-item:first-child {
+    border-bottom: solid 1px #cccccc;
+  }
+  .header-row .navbar-brand {
+    margin: 0;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .navbar-expand-lg .navbar-nav .download-h-btn {
+    margin: 10px 15px;
+    font-size: 18px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 0;
+    left: 0;
+    position: relative;
+    margin-top: 0;
+    border-radius: 0;
+    border: none;
+  }
+  .banner-content .heading-1,
+  .head-text-col .heading-2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .banner-section {
+    padding: 60px 0 20px;
+  }
+  .down-btn-col {
+    padding-bottom: 20px;
+  }
+  .download-banner .banner-content .heading-4 {
+    margin-bottom: 40px;
+  }
+  .inner-page .banner-content .heading-4 {
+    margin-bottom: 0;
+  }
+  .inner-page.download-banner .banner-content .heading-4 {
+    margin-bottom: 15px;
+  }
+  .banner-section .row {
+    flex-direction: column-reverse;
+  }
+  .banner-section,
+  .feature-banner,
+  .home-banner {
+    background: #0d0d12;
+  }
+  .banner-img-col .bnr-img {
+    margin: 0;
+  }
+  .banner-img-col {
+    padding: 0;
+    display: block;
+    border-top: solid 1px #272120;
+  }
+  .banner-content {
+    padding: 30px 0 0;
+    margin-left: 0;
+  }
+  .device-subscription-col br {
+    display: none;
+  }
+  .about-content-col .down-btn-col p {
+    width: 280px;
+  }
+  .down-btn-col a.download-btn {
+    line-height: 50px;
+    padding: 0 10px 0 33px;
+  }
+  .down-btn-col a.buy-btn {
+    width: 160px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .down-btn-col a.download-btn img {
+    margin-right: 10px;
+  }
+  .banner-section .container {
+    margin-top: 0;
+  }
+  .subscription-btn {
+    display: inherit;
+    clear: both;
+  }
+  .sav-steps-section {
+    padding: 40px 0;
+  }
+  .award-security-logos {
+    padding: 0;
+  }
+  .award-security-text {
+    padding-bottom: 8px;
+    padding-top: 0;
+    background-position: right 0;
+  }
+  .sav-step-box {
+    min-height: inherit;
+    margin-bottom: 40px;
+  }
+  .pc-step-content {
+    padding: 10px 0 0 0;
+  }
+  .about-content-col .heading-4,
+  .carousel-control.right,
+  .faq-content .heading-2,
+  .sav-stpes-outer .heading-2,
+  .steps-head-text .heading-5,
+  .tstml-slier .heading-2 {
+    margin-right: 0;
+  }
+  .faq-content .panel-heading .panel-title a {
+    font-size: 16px;
+    line-height: 24px;
+    background-size: 30px;
+    padding: 13px 50px 13px 55px;
+  }
+  .faq-content .panel-heading .panel-title a .plus-minus {
+    top: 12px;
+  }
+  .price-accordians-col .panel-default > .panel-heading a {
+    font-size: 15px;
+  }
+  .price-accordians-col {
+    min-height: auto;
+    margin-bottom: 40px;
+  }
+  .step-arrow {
+    display: none;
+  }
+  .head-text-col {
+    padding: 50px 0 0;
+  }
+  .about-screen-col {
+    padding: 20px 0 0;
+    text-align: center;
+  }
+  .about-content-col {
+    padding: 30px 0 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .about-content-col .heading-5 {
+    margin-bottom: 10px;
+  }
+  .about-content-col .heading-4 {
+    margin: 0 0 5px;
+  }
+  .pro-left-box {
+    padding: 40px 30px 0;
+  }
+  .buy-now-right {
+    padding: 20px 30px 40px;
+  }
+  .choose-paln-sec {
+    padding-top: 20px;
+  }
+  .pt-nm-col {
+    padding: 0;
+  }
+  .tstml-content {
+    margin: 0 5px;
+  }
+  .testimonial-section {
+    padding: 40px 0 0;
+  }
+  .promise-box-outer {
+    padding: 15px 0;
+  }
+  .promise-text-info p {
+    margin: 0;
+  }
+  .promise-text-info h6 {
+    margin-top: 0;
+  }
+  .steps-box .step-title {
+    margin-bottom: 5px;
+  }
+  .award-winning-security {
+    padding: 15px 0;
+  }
+  ul.foo-menu {
+    overflow: hidden;
+    display: table;
+    margin: 0;
+  }
+  .foo-left .foo-menu li {
+    padding: 0 8px;
+  }
+  .foo-cpr {
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  .footer-row {
+    padding: 15px 0;
+  }
+  .foo-left .foo-menu li a {
+    font-size: 13px;
+  }
+  .foo-cpr .copyright {
+    text-align: center;
+  }
+  .foo-cpr {
+    padding: 10px 0 0;
+  }
+  .about-content-col .heading-5 {
+    font-size: 22px;
+  }
+  .steps-box p {
+    font-size: 14px;
+  }
+  .sav-stpes-outer .head-text-col p {
+    margin-bottom: 50px;
+  }
+  .head-text-col p br {
+    display: none;
+  }
+  .col-sm-4 + .col-sm-4 .steps-box:before {
+    display: none;
+  }
+  .banner-content .heading-4 br {
+    display: none;
+  }
+  .price-plan-box {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    min-height: auto;
+  }
+  .most-popular-plan {
+    top: -10px;
+  }
+  .price-plan-box.active-plan .plan-title {
+    padding-top: 25px;
+  }
+  .tstml-content .desc-text {
+    line-height: 22px;
+    padding: 0 30px 25px;
+  }
+  .testimonial-section .owl-nav button {
+    margin-top: 0;
+  }
+  .frt-yr-dtl-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .faq-content {
+    padding: 20px 0 50px;
+  }
+  .foo-right-col {
+    text-align: center;
+  }
+  .footer-row {
+    padding: 15px 0 0;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .pc-step-content .heading-4 {
+    line-height: 36px;
+  }
+  .footer-link-col {
+    padding: 0 0 30px;
+  }
+  .footer-about-col {
+    padding: 15px 0 30px;
+  }
+  .colpy-right-row {
+    padding: 10px 0;
+  }
+  .no-risk-text br {
+    display: none;
+  }
+  .no-risk-text {
+    padding: 0 0 50px;
+  }
+  .heading-award-win {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .award-winning .head-text-col {
+    padding-top: 20px;
+  }
+  .award-winning {
+    margin-top: 20px;
+  }
+  .award-winning-list {
+    margin-top: 30px;
+  }
+  .award-winning .head-text-col p {
+    margin-bottom: 20px;
+  }
+  .tstml-content {
+    min-height: auto;
+    max-height: none;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu::after {
+    display: none !important;
+  }
+  .feature-banner .banner-content {
+    padding: 30px 0 0;
+  }
+  .sav-features-section .head-text-col h2 {
+    margin: 0 0 10px;
+    font-size: 32px;
+  }
+  .sav-pro-info {
+    width: auto;
+    background: 0 0;
+  }
+  .aboutftr2 .ftr-about-content-col {
+    padding: 10px 0 30px;
+  }
+  .aboutftr3 .ftr-about-content-col {
+    padding: 55px 0 30px 0;
+  }
+  .aboutftr4 .about-ftr-img img {
+    margin-top: 10px;
+  }
+  .aboutftr4 {
+    padding-bottom: 100px;
+  }
+  .sav-pro-info {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .sav-info-box {
+    width: 33.33%;
+    padding: 0;
+  }
+  .award-content-col .award-security-text {
+    padding-top: 20px;
+    padding-right: 0;
+  }
+  .award-content-col {
+    padding-bottom: 50px;
+  }
+  .aboutftr3 .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutftr3 .about-ftr-img {
+    padding: 20px 0 40px;
+  }
+  .faq-content.faq-box-content .head-text-col {
+    padding: 0;
+  }
+  .sav-support-box {
+    padding: 25px 15px;
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .sav-support-steps .head-text-col p {
+    margin-bottom: 20px;
+  }
+  .sav-support-steps .head-text-col h4 {
+    margin: 20px 0 0;
+  }
+  .sav-support-steps {
+    padding-bottom: 40px;
+  }
+  .contact-support-box {
+    margin-bottom: 40px;
+  }
+  .contact-support-steps {
+    padding-bottom: 20px;
+  }
+  .contact-support-steps .head-text-col h4 {
+    margin-top: 0;
+  }
+  .contactus-section .head-text-col {
+    padding-top: 0;
+  }
+  .query-support-section {
+    padding: 40px 0;
+  }
+  .contactus-section .faq-box-content .head-text-col {
+    padding-bottom: 30px;
+  }
+  .inner-page .banner-content {
+    padding: 30px 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .steps-screen-outer {
+    display: block;
+  }
+  .steps-screen-col {
+    display: block;
+    height: auto;
+    padding: 20px;
+  }
+  .download-heading-info {
+    padding-left: 85px;
+  }
+  .download-heading {
+    font-size: 22px;
+    margin: 0;
+  }
+  .download-outer-box {
+    margin-bottom: 25px;
+  }
+  .award-winning-section .ftr-about-content-col {
+    padding: 30px 0 0;
+  }
+  .award-winning-download {
+    overflow: hidden;
+  }
+  .header-row {
+    background: #000;
+  }
+  .award-winning-download .awa-list {
+    margin-right: 0;
+  }
+  .inner-page::after {
+    display: none;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.54);
+  }
+  .faq-box-content .heding-3 {
+    font-size: 28px;
+  }
+  .container-950,
+  .container-large {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .after-uninstall-section {
+    padding-top: 40px;
+  }
+  .after-uninstall-heading {
+    font-size: 26px;
+    line-height: normal;
+  }
+  .after-uninstall-sub-heading {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .after-uninstall-block {
+    padding: 15px;
+  }
+  .after-uninstall-heading {
+    font-size: 26px;
+    line-height: normal;
+  }
+  .after-uninstall-sub-heading {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .after-uninstall-info {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .btn-price {
+    font-size: 15px;
+    padding: 2px 10px 0;
+  }
+  .remember-section {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .install-pro-bot-info,
+  .install-pro-bot-screen {
+    max-width: 100%;
+    width: 100%;
+  }
+  .install-pro-bot-screen {
+    margin-top: 15px;
+  }
+  .remember-install-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .install-heading-text h4,
+  .prodnameblackbold {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .install-heading-text,
+  .install-heading-text p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .buy-now-pr-btn {
+    line-height: 30px;
+    padding: 8px 10px;
+    font-size: 17px;
+  }
+  .info-modal {
+    padding: 0 15px;
+    /* position: absolute */
+  }
+  .modal-right {
+    display: none;
+  }
+  .modal-left {
+    max-height: 300px;
+    overflow-x: scroll;
+  }
+
+  .after-update {
+    padding: 40px 0 60px;
+  }
+  .after-update h1 {
+    margin-bottom: 25px;
+  }
+  .sam-update-left {
+    padding-right: 30px;
+  }
+  sam-update-right {
+    padding: 0 15px;
+  }
+  .ind-day-offer .sam-update-promo {
+    padding: 30px 15px 0;
+  }
+  .sam-update-right h3 {
+    font-size: 36px;
+  }
+  .sam-update-right h3 span {
+    font-size: 22px;
+  }
+  .sam-update-right h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .sam-price {
+    font-size: 18px;
+  }
+  .sam-price .new {
+    font-size: 40px;
+  }
+  .sam-price .old > img {
+    top: 5px;
+  }
+  .sam-orange-btn {
+    padding-right: 75px;
+    font-size: 17px;
+  }
+  .sam-update-promo-bot {
+    float: none;
+    line-height: 36px;
+    padding: 11px;
+    font-size: 18px;
+    display: block;
+  }
+  .install-pro-heading {
+    padding-top: 20px;
+  }
+  .premiumupgrade-ctn .banner-content {
+    padding-left: 0;
+  }
+  .premiumupgrade-ctn .banner-content .heading-1 {
+    margin: 0 0 15px;
+  }
+  .premiumupgrade-ctn .down-btn-col {
+    padding-bottom: 0;
+  }
+  .prmm-features-outer .head-text-col h2 {
+    margin: 20px 0 15px;
+  }
+  .prmm-features-box {
+    margin-bottom: 30px;
+  }
+  .prmm-features-section {
+    padding: 0 0 24px;
+  }
+  p.prmm-text-title {
+    padding: 10px 0;
+  }
+  .newsletter-text-col {
+    padding: 0;
+  }
+  .newsletter-form-col .form-inline .form-control {
+    width: 260px;
+    height: 50px;
+  }
+  .newsletter-form-col .btn-primary {
+    line-height: 50px;
+  }
+  span.mail-icon {
+    display: inline-block;
+  }
+  .newsletter-form-col {
+    margin-left: 0;
+    padding: 24px 0 0;
+  }
+  .premiumupgrade-ctn {
+    min-height: auto;
+  }
+  .newsletter-form-col .form-inline .form-group {
+    margin-bottom: 0;
+  }
+  .newsletter-section {
+    padding: 60px 0;
+  }
+  .premiumupgrade-plan {
+    padding: 0;
+  }
+  .mbg-heading-text {
+    padding: 5px 10px;
+  }
+  .premiumupgrade-plan .premiumupgrade-accordians-col {
+    padding-top: 20px;
+  }
+  .premiumupgrade-plan .premiumupgrade-accordians-col {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .premiumupgrade-plan .mng-faq-box {
+    min-height: auto;
+    margin-bottom: 35px;
+  }
+  .premiumupgrade-accordians-col .card-body {
+    padding: 0 15px 5px 40px;
+  }
+  .premiumupgrade-plan .windows-device-text {
+    padding: 0;
+    margin-top: -20px;
+  }
+  .cl-newsletter-text-col {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  .newsletter-colum-view {
+    padding-bottom: 50px;
+  }
+  .new-newsletter-form-col .form-inline .form-control {
+    padding: 10px 20px;
+  }
+  .new-newsletter-form-col .form-inline .form-group {
+    margin-bottom: 0;
+  }
+  .cl-newsletter-text-col .heading-5 {
+    font-size: 28px;
+  }
+  .prmm-features-outer .head-text-col h2 {
+    font-size: 30px;
+  }
+  .recommended-ftr02 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-expand-lg .navbar-collapse {
+    margin: 10px -15px -10px;
+  }
+  main {
+    padding-top: 60px;
+  }
+  .banner-content .heading-4 {
+    font-size: 20px;
+  }
+  .down-btn-col {
+    width: auto;
+  }
+  .btn.download-btn2 {
+    width: 90%;
+    font-size: 22px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 3.8px 0 rgba(0, 0, 0, 0.25);
+  }
+  .header-row.affix {
+    position: relative;
+  }
+  .faq-content .heading-2,
+  .steps-head-text .heading-5,
+  .tstml-slier .heading-2 {
+    font-size: 34px;
+  }
+  .faq-content .heading-2 {
+    margin: 0 0 20px;
+  }
+  .faq-content .panel-heading .panel-title a {
+    padding: 8px 42px 8px 56px;
+  }
+  .special-deal-title {
+    font-size: 18px;
+  }
+  .faq-content .panel-heading .panel-title a {
+    background-position: 15px 5px;
+  }
+  .faq-content .panel-body {
+    padding: 4px 15px 20px 55px;
+  }
+  .header-row .btn.download-btn1 {
+    display: none;
+  }
+  .faq-content .accordion > .card > .card-header .btn {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .faq-content .accordion > .card > .card-header .btn .plus-minus {
+    top: 12px;
+  }
+  .contact-support-steps .head-text-col {
+    padding: 50px 15px 0;
+  }
+  .inner-page-content ul li {
+    padding-left: 20px;
+  }
+  .inner-page-content ul li .dotted {
+    width: 7px;
+    height: 7px;
+  }
+  .feature-banner .banner-content {
+    padding-top: 30px;
+  }
+  .download-heading {
+    line-height: 28px;
+    margin-bottom: 4px;
+  }
+  .container-950,
+  .container-large {
+    max-width: 100%;
+  }
+  .sav-info-box {
+    float: none;
+    width: auto;
+  }
+  .sav-info-box.emplyees,
+  .sav-info-box.ml-files,
+  .sav-info-box.pro-time {
+    padding-top: 70px;
+  }
+  .sav-info-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .sav-info-box .features-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -35px;
+  }
+  .sav-info-box.pro-time .heading-5 {
+    margin-top: 0;
+  }
+  .sav-info-box.ml-files p {
+    margin-bottom: 0;
+  }
+  .sav-pro-info {
+    padding-bottom: 30px;
+  }
+  .install-prem-os {
+    padding: 27px 0 0;
+  }
+  .prmm-table-outer .table {
+    table-layout: fixed;
+    width: 480px;
+  }
+  .prmm-table-outer {
+    overflow: auto;
+  }
+  .prmm-table-outer .table thead th:first-child {
+    width: 400px;
+  }
+  .prmm-download-btn {
+    font-size: 18px;
+  }
+  .newsletter-section {
+    padding: 30px 0 40px;
+    margin-top: 40px;
+  }
+  .new-newsletter-form-col .form-inline .form-group {
+    width: 60%;
+  }
+  .new-newsletter-form-col .btn-primary {
+    width: 38%;
+  }
+  .install-prem-os {
+    font-size: 18px;
+  }
+  .install-os-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-row .navbar-brand img {
+    width: 220px;
+  }
+  .navbar-light .navbar-toggler {
+    padding: 2px 8px;
+  }
+  .down-btn-col a.buy-btn,
+  .down-btn-col a.download-btn {
+    display: block;
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .down-btn-col a.buy-btn,
+  .down-btn-col a.download-btn {
+    width: auto;
+    margin: 0 0 5px;
+    padding: 0 15px;
+  }
+  .down-btn-col {
+    text-align: center;
+  }
+  .subscription-btn {
+    line-height: 22px;
+    padding: 8px 15px;
+  }
+  .vb-virus-logo {
+    margin-left: 20px;
+  }
+  .down-btn-col p {
+    margin: 0;
+    padding: 0;
+  }
+  .banner-content .heading-1 {
+    line-height: 32px;
+  }
+  .device-subscription-col {
+    padding: 0;
+  }
+  .down-btn-col p {
+    width: auto;
+    max-width: 100%;
+  }
+  .app_esteem_Logo1 {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .subscription-btn {
+    display: block;
+    width: 100%;
+  }
+  .btn.subscription-btn.mr-lt {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .btn.subscription-btn {
+    height: 60px;
+  }
+  .banner-content .heading-1,
+  .buy-now-section .heading,
+  .faq-content .heading-2,
+  .head-text-col .heading-2,
+  .special-deal-title,
+  .steps-head-text .heading-5,
+  .tstml-slier .heading-2 {
+    font-size: 32px;
+  }
+  .about-content-col .down-btn-col p {
+    width: auto;
+  }
+  .premiumupgrade2-banner .banner-content .heading-1 {
+    font-size: 30px;
+  }
+
+  .sav-stpes-outer .heading-2 {
+    margin-bottom: 20px;
+  }
+  .about-content-col .down-btn-col a.download-btn {
+    margin-bottom: 5px;
+  }
+  .about-content-col .heading-4 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+  .about-content-col .heading-5 {
+    font-size: 20px;
+  }
+  .tstml-slier .heading-2 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  .testimonial-section {
+    padding-top: 10px;
+  }
+  .tstml-content {
+    background-position: 100% 100%;
+  }
+  .promise-text-info {
+    max-width: 100%;
+    margin: 15px 0 0;
+    text-align: center;
+  }
+  .promise-logo {
+    float: none;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  .buy-now-right {
+    padding: 20px 15px 30px;
+  }
+  .faq-content .panel-heading .panel-title a {
+    background: 0 0;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .faq-content .panel-heading .panel-title a .plus-minus {
+    right: 10px;
+    top: 12px;
+  }
+  .faq-content .panel-body {
+    font-size: 14px;
+  }
+  .testimonial-section .carousel {
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 20px 0 0;
+  }
+  .tstml-content,
+  .tstml-content .desc-text {
+    background: 0 0;
+  }
+  .tstml-content .desc-text {
+    padding: 0 15px 25px;
+  }
+  .faq-content .panel-body {
+    padding: 0 15px 10px;
+  }
+  .vpn-status-detail {
+    padding: 0;
+  }
+  .header-row .btn.download-btn1 {
+    display: none;
+  }
+  .banner-content .heading-4 {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .copyright,
+  .foo-left .foo-menu li a {
+    line-height: 20px;
+  }
+  .foo-left .foo-menu li {
+    margin-bottom: 8px;
+  }
+  .sav-stpes-outer .head-text-col .heading-2 {
+    font-size: 28px;
+  }
+  ul.os-link-bnr {
+    margin-top: 10px;
+  }
+  .get-free-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .special-offer-popup .modal-content {
+    padding: 0 15px;
+  }
+  .recive-offer-text {
+    padding: 18px 0 0;
+  }
+  .get-intro-price br {
+    display: none;
+  }
+  .banner-price-col .main-price {
+    font-size: 48px;
+  }
+  .banner-price-col .per-year-off {
+    font-size: 22px;
+  }
+  .subscription-today-title {
+    font-size: 18px;
+  }
+  .award-security-text {
+    margin-right: 0;
+    background: 0 0;
+    padding-right: 0;
+  }
+  .feature-banner .banner-content {
+    padding: 30px 0 0;
+  }
+  .sav-info-box .heading-5 {
+    font-size: 20px;
+  }
+  .sav-info-box.ml-files p {
+    padding: 0;
+  }
+  .sav-info-box.ml-files p {
+    margin-bottom: 10px;
+  }
+  .sav-info-box.emplyees p {
+    margin-bottom: 10px;
+  }
+  .sav-info-box.pro-time .heading-5 {
+    margin-top: 10px;
+  }
+  .contactus-content {
+    padding: 0 15px 50px;
+  }
+  .contactus-form-outer .btn-primary {
+    box-shadow: 0 2px 4px rgba(13, 18, 58, 0.28);
+  }
+  .contact-support-box {
+    padding: 0 15px;
+  }
+  .contactus-form-outer .form-group {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  .google-captcha-col {
+    margin: 0 0 20px;
+  }
+  .face-problem-info a {
+    font-size: 18px;
+  }
+  .face-problem-info {
+    padding: 0 0 10px 32px;
+  }
+  .download-banner .down-btn-col a.download-btn {
+    min-width: auto;
+  }
+  .install-buy-price {
+    width: auto;
+    float: none;
+  }
+  .install-buy-btn-col {
+    margin: 0;
+    padding: 0 15px;
+  }
+  .buy-now-pr-btn {
+    font-size: 18px;
+  }
+  .install-heading-text {
+    margin: 0;
+    float: none;
+    display: block;
+    clear: both;
+    padding-top: 15px;
+  }
+  .prmm-features-outer .head-text-col h2 {
+    font-size: 30px;
+  }
+  .newsletter-form-col .form-inline .form-group,
+  .newsletter-form-col .form-inline .form-group {
+    width: auto;
+  }
+  .newsletter-form-col .btn-primary {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .newsletter-form-col .form-inline .form-control {
+    width: 270px;
+  }
+  .newsletter-form-col .form-inline {
+    display: block;
+  }
+  .newsletter-form-col .form-inline .form-group {
+    float: none;
+  }
+  span.mail-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .newsletter-text-col .heading-5 {
+    font-size: 28px;
+  }
+  p.prmm-text-title {
+    font-size: 16px;
+  }
+  .prmm-features-outer .head-text-col h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .head-text-col {
+    padding: 30px 0 0;
+  }
+  .premiumupgrade-accordians-col .accordion > .card > .card-header .btn {
+    font-size: 16px;
+  }
+  span.mail-icon02 {
+    display: none;
+  }
+  .new-newsletter-form-col .btn-primary {
+    padding: 0 5px;
+    text-align: center;
+  }
+  .new-newsletter-form-col .form-inline .form-control {
+    text-overflow: ellipsis;
+    padding: 5px 20px;
+    height: 40px;
+  }
+  .new-newsletter-form-col .btn-primary {
+    line-height: 40px;
+  }
+}

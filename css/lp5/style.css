@@ -1,0 +1,587 @@
+.banner-content,
+.banner-content .heading-1,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.lazybg {
+  background-image: none !important;
+}
+.down-btn-col a.download-btn,
+.sav-features-section .head-text-col h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.container {
+  max-width: 1170px;
+  width: inherit;
+}
+header.header-row {
+  animation-duration: 0.5s;
+  transition: 0.5s;
+}
+header.header-row.fixed {
+  position: fixed;
+  background: #000;
+  animation-name: stickySlideDown;
+}
+@keyframes stickySlideDown {
+  0% {
+    opacity: 0.7;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
+header.header-row.fixed .navbar {
+  padding: 10px 0;
+}
+.navbar-expand-lg .navbar-nav .download-h-btn {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: none;
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  border-radius: 64px;
+}
+header.header-row.fixed .navbar-expand-lg .navbar-nav .download-h-btn {
+  display: block;
+}
+.banner-section .down-btn-col {
+  width: 100%;
+  max-width: 100%;
+}
+.banner-section .down-btn-col a.btn {
+  margin-right: 0;
+}
+.down-btn-col a.download-btn {
+  background: #dd1d25;
+  border: 2px solid #dd1d25;
+  color: #fff;
+  font-size: 20px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-right: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  border-radius: 64px;
+}
+.down-btn-col a.download-btn:hover {
+  background: #d5131b;
+}
+.banner-content .down-btn-col a.download-btn.dwn-nw-btn,
+.banner-content .down-btn-col a.download-btn.dwn-nw-btn:hover {
+  border-color: #f7f4fc;
+  color: #fff;
+}
+.banner-section {
+  background: url(https://cdn.systweak.com/content/wp/sav/lp5/banner-bg-05.webp)
+    center 0 / cover no-repeat #1b1b1e;
+  overflow: hidden;
+  position: relative;
+  min-height: inherit;
+  max-height: inherit;
+}
+.banner-img-col {
+  text-align: center;
+  padding: 75px 0 30px;
+  display: none;
+}
+.banner-img-col .bnr-img {
+  max-width: 580px;
+  float: right;
+  margin-right: 16px;
+}
+ul.banner-list {
+  margin-bottom: 30px;
+}
+.banner-content {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  margin-left: 9px !important;
+  padding: 127px 0 91px;
+}
+.banner-content .heading-1 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 58px;
+  margin: 0 0 7px;
+}
+.banner-content .heading-4 {
+  color: #fefeff;
+  font-size: 23.85px;
+  line-height: 35px;
+  margin: 0 0 46px;
+  font-weight: 400;
+}
+.subscription-btn {
+  background: 0 0;
+  border: 2px solid #a0a0a2;
+  border-radius: 3px;
+  height: 71px;
+  outline: 0 !important;
+  color: #a0a1a4 !important;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.subscription-btn.active,
+.subscription-btn:hover {
+  border-color: #e51016;
+  color: #ff010a !important;
+}
+.btn.subscription-btn.mr-lt {
+  margin-left: 9px;
+}
+.banner-price-col {
+  overflow: hidden;
+  padding: 0 0 9px;
+}
+.banner-price-col .main-price {
+  color: #fefeff;
+  font-size: 3.5rem !important;
+  font-weight: 500;
+  margin-top: -2px;
+}
+.banner-price-col .pr-devider {
+  height: 47px;
+  width: 4px;
+  background: #fff;
+  display: inline-block;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+.banner-price-col .per-year-off {
+  color: #fefeff;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+  margin-top: -2px;
+}
+.banner-price-col span {
+  float: left;
+}
+.subscription-today-title {
+  color: #ffc400;
+  font-size: 1.5rem !important;
+  margin: 0 0 7px;
+}
+.down-btn-col p {
+  min-width: 227px;
+  float: left;
+  color: #5a5a5a;
+  font-size: 13px;
+  text-align: center;
+  max-width: 229px;
+  margin: 14px 0 0;
+}
+.down-btn-col p + p {
+  margin-left: 18px;
+}
+.banner-content .down-btn-col p {
+  color: #fff;
+  opacity: 0.5;
+}
+.down-btn-col a.btn {
+  min-width: 227px;
+  display: inline-block;
+  padding: 0 10px;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: transform 0.1s ease-in-out;
+  -ms-transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+}
+.down-btn-col a.buy-btn {
+  width: 192px;
+  background: #fff;
+  border: 2px solid #16202c;
+  color: #16202c;
+  font-size: 20px;
+  line-height: 60px;
+  margin-right: 0;
+}
+.down-btn-col a.btn:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 10px;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: ease-in-out;
+  -ms-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #426f85 0,
+    rgba(255, 255, 255, 0) 70%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #426f85 0,
+    rgba(255, 255, 255, 0) 70%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    #426f85 0,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+.down-btn-col a.btn:hover:after {
+  opacity: 0.4;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.down-btn-col a.btn:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px) !important;
+  transform: translateY(-5px) !important;
+}
+.down-btn-col a.download-btn.dwn-nw-btn {
+  background: 0 0;
+  border-color: #dd1d25;
+  color: #dd1d25;
+  margin-left: 10px;
+}
+.faq-content {
+  padding: 55px 0 52px;
+  overflow: hidden;
+}
+.faq-content .heading-2 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 46px;
+  text-align: center;
+}
+.faq-content .panel {
+  border: 1px solid #dfe0e1;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+.faq-content .panel-heading {
+  background: 0 0;
+  border: none;
+  padding: 0;
+}
+.faq-content .panel-heading .panel-title a {
+  color: #000;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 13px 60px 13px 70px;
+  display: block;
+  align-items: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+  background: url(https://cdn.systweak.com/content/wp/sav/lp5/aq-mark.webp) 15px
+    14px no-repeat;
+  position: relative;
+}
+.faq-content .panel-heading .panel-title a .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/lp5/minus.webp) center
+    center/14px no-repeat;
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 24px;
+  top: 22px;
+}
+.faq-content .panel-heading .panel-title a.collapsed .plus-minus {
+  background: url(https://cdn.systweak.com/content/wp/sav/lp5/plus.webp) center
+    center/14px no-repeat;
+}
+.faq-content .panel-body {
+  padding: 4px 15px 45px 70px;
+  background: #fff;
+  color: #6d6d6d;
+  font-size: 15px;
+  line-height: 21px;
+  border: none !important;
+}
+.award-winning {
+  background: #fbfcff;
+  margin-top: 0 !important;
+  padding-top: 20px;
+  padding-bottom: 95px;
+}
+.heading-award-win {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 31px;
+  line-height: 36px;
+  color: #060607;
+}
+.award-winning-list {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  clear: both;
+}
+.award-winning-list li {
+  display: inline;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.our-promise {
+  padding: 50px 0 73px;
+}
+.promise-col-1 {
+  margin-left: 70px;
+}
+.promise-box-outer {
+  overflow: hidden;
+  padding: 25px 0;
+}
+.promise-logo {
+  float: left;
+  width: 100px;
+}
+.promise-text-info {
+  margin-left: 120px;
+  padding-top: 21px;
+  text-align: left;
+}
+.promise-text-info h6 {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.promise-text-info p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.our-promise .heading-3 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 38px;
+  text-align: center;
+}
+.colpy-right-row {
+  background: #fff;
+  border-top: 1px solid #eeeff2;
+  padding: 24px 0 21px;
+}
+.foo-menu {
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+.foo-left .foo-menu li {
+  float: left;
+  padding: 0 15px;
+  line-height: 14px;
+}
+.foo-left .foo-menu li.first {
+  padding-left: 0;
+}
+.foo-left .foo-menu li.last {
+  border-right: none;
+}
+.foo-left .foo-menu li a {
+  color: #575757;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.foo-left .foo-menu li a:hover {
+  color: #000;
+}
+.foo-right-col {
+  text-align: right;
+  padding-top: 13px;
+}
+.copyright {
+  color: #53585a;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+  text-align: left;
+}
+.sav-features-section .head-text-col h2 {
+  margin-top: 60px;
+}
+.return-to-top {
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 999;
+  bottom: 22px;
+  right: 20px;
+  transition: bottom 0.4s;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  cursor: pointer;
+}
+.return-to-top:focus {
+  outline: 0;
+}
+@media (max-width: 1199.98px) {
+  .down-btn-col a.btn {
+    min-width: 214px;
+  }
+  .down-btn-col p + p {
+    margin-left: -6px;
+  }
+  .sav-features-section .head-text-col h2 {
+    font-size: 30px;
+    margin: 54px 0 17px;
+  }
+  .promise-text-info {
+    margin-left: 110px !important;
+    padding-top: 15px !important;
+  }
+  .promise-col-1 {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 991.98px) {
+  .award-winning-list,
+  .sav-pro-info {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-expand-lg .navbar-nav .download-h-btn {
+    padding: 0 24px !important;
+  }
+  .down-btn-col a.btn {
+    min-width: 186px;
+  }
+  .down-btn-col a.download-btn {
+    font-size: 16px !important;
+  }
+  .down-btn-col p {
+    min-width: auto;
+    max-width: 175px;
+  }
+  .down-btn-col p + p {
+    margin-left: 30px;
+  }
+  .sav-features-section .head-text-col h2 {
+    font-size: 30px;
+    margin: 54px 0 17px;
+  }
+  .award-winning-list {
+    max-width: 320px;
+  }
+  .award-winning-list li {
+    width: 33.33% !important;
+  }
+  .award-winning-list li:first-child img {
+    margin-top: 14px;
+  }
+  .award-winning-list li:nth-child(2) img {
+    margin-top: 0 !important;
+  }
+  .faq-content {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  .promise-col-1 {
+    margin-left: 0;
+  }
+  .promise-text-info {
+    margin-left: 0 !important;
+  }
+  .our-promise .heading-3 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .navbar-expand-lg .navbar-nav {
+    background: 0 0 !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    border: none !important;
+  }
+  .navbar-expand-lg .navbar-nav .download-h-btn {
+    max-width: 180px;
+    margin: 5px 0;
+    padding: 8px 20px !important;
+    float: right !important;
+  }
+  .banner-section .down-btn-col a.btn {
+    width: 48%;
+    float: left;
+  }
+  .down-btn-col a.download-btn.dwn-nw-btn {
+    float: right;
+  }
+  .down-btn-col p + p {
+    margin-left: 35px;
+  }
+  .down-btn-col {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-row {
+    padding-top: 0 !important;
+  }
+  .sav-features-section .head-text-col h2 {
+    font-size: 22px !important;
+    line-height: 30px;
+  }
+  .sav-features-section .head-text-col p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 18px 0 40px;
+    padding: 0;
+  }
+}
+@media (max-width: 479.98px) {
+  .navbar-expand-lg .navbar-nav li.nav-item.clsHomeNavBuyNow {
+    display: none !important;
+  }
+  .banner-section .down-btn-col a.btn {
+    width: 100%;
+    float: left;
+  }
+  .down-btn-col a.download-btn.dwn-nw-btn {
+    float: right;
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .banner-content .down-btn-col p {
+    margin-top: -90px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner-content .down-btn-col p + p {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .down-btn-col {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-row {
+    padding-top: 0 !important;
+  }
+}
