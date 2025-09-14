@@ -18,6 +18,32 @@
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
+	  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabLinks = document.querySelectorAll('.tab-link');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabLinks.forEach((link) => {
+            link.addEventListener('click', function() {
+                const tabId = this.getAttribute('data-tab');
+
+                tabLinks.forEach((link) => link.classList.remove('active'));
+                tabContents.forEach((content) => content.classList.remove('active'));
+
+                this.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+    });
+</script>
+<script>
+  document.addEventListener("contextmenu", e => e.preventDefault());
+  document.addEventListener("keydown", e => {
+    if (e.ctrlKey && ["u","s","c"].includes(e.key.toLowerCase())) {
+      e.preventDefault();
+    }
+  });
+</script>
     <script src="/utils/common.js"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -827,4 +853,5 @@ $(window).scroll(function () {
    });  
       </script>
 </body>
+
 </html>
